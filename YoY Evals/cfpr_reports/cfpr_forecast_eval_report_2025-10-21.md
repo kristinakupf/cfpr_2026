@@ -26,7 +26,7 @@ This report summarizes model performance across **monthly (MAPE)**, **year-over-
 
 **Monthly Percent Error Trends (Top 5 Models)**
 
-![Bakery and cereal products (excluding baby food)](./cfpr_figures_percent_error_dynamic/Bakery_and_cereal_products_(excluding_baby_food)_percent_error_dynamic.png)
+![Bakery and cereal products (excluding baby food)](../cfpr_figures_percent_error_dynamic/Bakery_and_cereal_products_(excluding_baby_food)_percent_error_dynamic.png)
 
 **Recommended Models:** gemini-1.5-pro_report_True, claude-3-5-sonnet-20240620_report_False, gemini-1.5-pro_report_False
 
@@ -51,7 +51,7 @@ This report summarizes model performance across **monthly (MAPE)**, **year-over-
 
 **Monthly Percent Error Trends (Top 5 Models)**
 
-![Dairy products and eggs](./cfpr_figures_percent_error_dynamic/Dairy_products_and_eggs_percent_error_dynamic.png)
+![Dairy products and eggs](../cfpr_figures_percent_error_dynamic/Dairy_products_and_eggs_percent_error_dynamic.png)
 
 **Recommended Models:** ag_local_AutoETSModel, ag_local_AutoARIMAModel, ag_global_all_DeepARModel
 
@@ -97,7 +97,7 @@ This report summarizes model performance across **monthly (MAPE)**, **year-over-
 
 **Monthly Percent Error Trends (Top 5 Models)**
 
-![Food](./cfpr_figures_percent_error_dynamic/Food_percent_error_dynamic.png)
+![Food](../cfpr_figures_percent_error_dynamic/Food_percent_error_dynamic.png)
 
 **Recommended Models:** ag_local_TemporalFusionTransformerModel, ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_, ag_local_AutoARIMAModel
 
@@ -122,7 +122,7 @@ This report summarizes model performance across **monthly (MAPE)**, **year-over-
 
 **Monthly Percent Error Trends (Top 5 Models)**
 
-![Food purchased from restaurants](./cfpr_figures_percent_error_dynamic/Food_purchased_from_restaurants_percent_error_dynamic.png)
+![Food purchased from restaurants](../cfpr_figures_percent_error_dynamic/Food_purchased_from_restaurants_percent_error_dynamic.png)
 
 **Recommended Models:** ag_global_all_DeepARModel, ag_local_DLinearModel, ag_local_DeepARModel
 
@@ -168,7 +168,7 @@ This report summarizes model performance across **monthly (MAPE)**, **year-over-
 
 **Monthly Percent Error Trends (Top 5 Models)**
 
-![Meat](./cfpr_figures_percent_error_dynamic/Meat_percent_error_dynamic.png)
+![Meat](../cfpr_figures_percent_error_dynamic/Meat_percent_error_dynamic.png)
 
 **Recommended Models:** ag_local_DeepARModel, claude-3-5-sonnet-20240620_report_False, ag_global_all_TemporalFusionTransformerModel
 
@@ -193,7 +193,7 @@ This report summarizes model performance across **monthly (MAPE)**, **year-over-
 
 **Monthly Percent Error Trends (Top 5 Models)**
 
-![Other food products and non-alcoholic beverages](./cfpr_figures_percent_error_dynamic/Other_food_products_and_non-alcoholic_beverages_percent_error_dynamic.png)
+![Other food products and non-alcoholic beverages](../cfpr_figures_percent_error_dynamic/Other_food_products_and_non-alcoholic_beverages_percent_error_dynamic.png)
 
 **Recommended Models:** ag_global_all_TemporalFusionTransformerModel_exp1_llm_, ag_global_all_TemporalFusionTransformerModel, ag_local_AutoETSModel
 
@@ -218,7 +218,7 @@ This report summarizes model performance across **monthly (MAPE)**, **year-over-
 
 **Monthly Percent Error Trends (Top 5 Models)**
 
-![Vegetables and vegetable preparations](./cfpr_figures_percent_error_dynamic/Vegetables_and_vegetable_preparations_percent_error_dynamic.png)
+![Vegetables and vegetable preparations](../cfpr_figures_percent_error_dynamic/Vegetables_and_vegetable_preparations_percent_error_dynamic.png)
 
 **Recommended Models:** claude-3-5-sonnet-20240620_report_False, ag_global_all_DLinearModel, ag_local_DLinearModel
 
