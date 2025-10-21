@@ -1,0 +1,2 @@
+{'model_types': {'SimpleFeedForward': 'MultiWindowBacktestingModel'}, 'model_performance': {'SimpleFeedForward': -0.3890993480570396}, 'model_best': 'SimpleFeedForward', 'model_paths': {'SimpleFeedForward': ['SimpleFeedForward']}, 'model_fit_times': {'SimpleFeedForward': 48.89115858078003}, 'model_pred_times': {'SimpleFeedForward': 0.04213309288024902}, 'model_hyperparams': {'SimpleFeedForward': {}}, 'leaderboard':                model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  SimpleFeedForward  -0.389099       0.042133          48.891159          1}

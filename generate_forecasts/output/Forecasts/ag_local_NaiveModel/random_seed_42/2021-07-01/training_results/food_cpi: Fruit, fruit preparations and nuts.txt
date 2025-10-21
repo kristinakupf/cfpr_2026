@@ -1,0 +1,2 @@
+{'model_types': {'Naive': 'MultiWindowBacktestingModel'}, 'model_performance': {'Naive': -0.01915335873259981}, 'model_best': 'Naive', 'model_paths': {'Naive': ['Naive']}, 'model_fit_times': {'Naive': 0.025391340255737305}, 'model_pred_times': {'Naive': 0.025131702423095703}, 'model_hyperparams': {'Naive': {}}, 'leaderboard':    model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  Naive  -0.019153       0.025132           0.025391          1}

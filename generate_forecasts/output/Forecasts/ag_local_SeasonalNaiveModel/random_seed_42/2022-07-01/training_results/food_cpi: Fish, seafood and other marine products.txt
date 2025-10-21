@@ -1,0 +1,2 @@
+{'model_types': {'SeasonalNaive': 'MultiWindowBacktestingModel'}, 'model_performance': {'SeasonalNaive': -0.035735814397903756}, 'model_best': 'SeasonalNaive', 'model_paths': {'SeasonalNaive': ['SeasonalNaive']}, 'model_fit_times': {'SeasonalNaive': 0.025406599044799805}, 'model_pred_times': {'SeasonalNaive': 0.02489304542541504}, 'model_hyperparams': {'SeasonalNaive': {}}, 'leaderboard':            model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  SeasonalNaive  -0.035736       0.024893           0.025407          1}

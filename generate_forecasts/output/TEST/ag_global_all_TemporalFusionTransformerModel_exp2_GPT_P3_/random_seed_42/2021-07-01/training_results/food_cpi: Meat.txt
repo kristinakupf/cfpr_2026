@@ -1,0 +1,5 @@
+{'model_types': {'TemporalFusionTransformer': 'MultiWindowBacktestingModel'}, 'model_performance': {'TemporalFusionTransformer': -1.1414493480506716}, 'model_best': 'TemporalFusionTransformer', 'model_paths': {'TemporalFusionTransformer': ['TemporalFusionTransformer']}, 'model_fit_times': {'TemporalFusionTransformer': 2.140387773513794}, 'model_pred_times': {'TemporalFusionTransformer': 0.043183326721191406}, 'model_hyperparams': {'TemporalFusionTransformer': {}}, 'leaderboard':                        model  score_val  pred_time_val  fit_time_marginal  \
+0  TemporalFusionTransformer  -1.141449       0.043183           2.140388   
+
+   fit_order  
+0          1  }

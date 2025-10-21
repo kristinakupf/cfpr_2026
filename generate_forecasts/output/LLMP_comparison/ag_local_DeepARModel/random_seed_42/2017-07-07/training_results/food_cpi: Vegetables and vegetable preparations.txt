@@ -1,0 +1,2 @@
+{'model_types': {'DeepAR': 'MultiWindowBacktestingModel'}, 'model_performance': {'DeepAR': -0.027052010914887552}, 'model_best': 'DeepAR', 'model_paths': {'DeepAR': ['DeepAR']}, 'model_fit_times': {'DeepAR': 158.85694670677185}, 'model_pred_times': {'DeepAR': 0.12537455558776855}, 'model_hyperparams': {'DeepAR': {}}, 'leaderboard':     model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  DeepAR  -0.027052       0.125375         158.856947          1}

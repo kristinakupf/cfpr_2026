@@ -1,0 +1,2 @@
+{'model_types': {'DLinear': 'MultiWindowBacktestingModel'}, 'model_performance': {'DLinear': -0.01507089820497435}, 'model_best': 'DLinear', 'model_paths': {'DLinear': ['DLinear']}, 'model_fit_times': {'DLinear': 26.0771803855896}, 'model_pred_times': {'DLinear': 0.01947498321533203}, 'model_hyperparams': {'DLinear': {}}, 'leaderboard':      model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  DLinear  -0.015071       0.019475           26.07718          1}

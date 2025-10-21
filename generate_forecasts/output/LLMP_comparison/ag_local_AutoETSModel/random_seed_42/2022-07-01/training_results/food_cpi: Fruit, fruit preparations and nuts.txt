@@ -1,0 +1,2 @@
+{'model_types': {'AutoETS': 'MultiWindowBacktestingModel'}, 'model_performance': {'AutoETS': -0.06650981172213408}, 'model_best': 'AutoETS', 'model_paths': {'AutoETS': ['AutoETS']}, 'model_fit_times': {'AutoETS': 0.01693558692932129}, 'model_pred_times': {'AutoETS': 0.7671811580657959}, 'model_hyperparams': {'AutoETS': {}}, 'leaderboard':      model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  AutoETS   -0.06651       0.767181           0.016936          1}

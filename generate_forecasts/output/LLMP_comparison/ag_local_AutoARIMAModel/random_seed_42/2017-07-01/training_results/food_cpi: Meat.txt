@@ -1,0 +1,2 @@
+{'model_types': {'AutoARIMA': 'MultiWindowBacktestingModel'}, 'model_performance': {'AutoARIMA': -0.02274532828332344}, 'model_best': 'AutoARIMA', 'model_paths': {'AutoARIMA': ['AutoARIMA']}, 'model_fit_times': {'AutoARIMA': 0.01906728744506836}, 'model_pred_times': {'AutoARIMA': 14.155928373336792}, 'model_hyperparams': {'AutoARIMA': {}}, 'leaderboard':        model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  AutoARIMA  -0.022745      14.155928           0.019067          1}

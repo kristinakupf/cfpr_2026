@@ -1,0 +1,2 @@
+{'model_types': {'PatchTST': 'MultiWindowBacktestingModel'}, 'model_performance': {'PatchTST': -0.026511901888052813}, 'model_best': 'PatchTST', 'model_paths': {'PatchTST': ['PatchTST']}, 'model_fit_times': {'PatchTST': 31.6326322555542}, 'model_pred_times': {'PatchTST': 0.018286943435668945}, 'model_hyperparams': {'PatchTST': {}}, 'leaderboard':       model  score_val  pred_time_val  fit_time_marginal  fit_order
+0  PatchTST  -0.026512       0.018287          31.632632          1}

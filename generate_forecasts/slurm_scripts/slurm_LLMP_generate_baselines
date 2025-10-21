@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#SBATCH --job-name=get_baselines_LLMP
+
+#SBATCH --gres=gpu:1
+
+#SBATCH --qos=normal
+
+#SBATCH --cpus-per-task=4
+
+#SBATCH --mem=5G
+
+#SBATCH --output=./slurm_logs/get_baselines_LLMP-%j.out
+
+#SBATCH --error=./slurm_logs/get_baselines_LLMP-%j.err
+
+#SBATCH --time=15:00:00
+
+#SBATCH --mail-type=END,FAIL
+
+
+echo Running on $(hostname)
+
+source /h/kupfersk/cfpr_2025/cfpr_2025/miniconda3/etc/profile.d/conda.sh
+conda activate cfpr_2025_py3.8
+
+!cd /h/kupfersk/cfpr_2025/generate/forecasts
+
+
+!jupyter nbconvert --to script /h/kupfersk/cfpr_2025/generate_forecasts/autogluon_generate_baseline_LLMP.ipynb
+
+python /h/kupfersk/cfpr_2025/generate_forecasts/autogluon_generate_baseline_LLMP.py
+

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#SBATCH --job-name=ind_cat
+
+#SBATCH --gres=gpu:1
+
+#SBATCH --qos=normal
+
+#SBATCH --mem=10G
+
+#SBATCH --output=./slurm_logs/ind_cat-%j.out
+
+#SBATCH --error=./slurm_logs/ind_cat-%j.err
+
+#SBATCH --time=15:00:00
+
+#SBATCH --mail-type=END,FAIL
+
+
+echo Running on $(hostname)
+
+source /h/kupfersk/cfpr_2025/cfpr_2025/miniconda3/etc/profile.d/conda.sh
+conda activate cfpr_2025_py3.8
+
+
+cd /h/kupfersk/cfpr_2025/generate_forecasts
+
+#ipython
+#srun jupyter nbconvert --to notebook --execute /h/kupfersk/cfpr_2025/generate_forecasts/autogluon_generate_FullReport_VarSelect_ind_cat.ipynb
+
+python /h/kupfersk/cfpr_2025/generate_forecasts/autogluon_generate_FullReport_VarSelect_ind_cat.py
+

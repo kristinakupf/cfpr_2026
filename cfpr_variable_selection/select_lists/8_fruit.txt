@@ -1,0 +1,13 @@
+apu000072610
+cwur0000sa0
+fmpi
+impch
+impmx
+pcu32533253
+pcu324191324191
+pcu333132333132
+pcu482111482111
+canola_oil
+energy_cpi
+fppi_total
+rmpi_total

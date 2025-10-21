@@ -1,0 +1,13 @@
+policy_uncertainty
+cwur0000sa0
+fedfunds
+fmpi
+pcu324191324191
+pcu333132333132
+pcu482111482111
+canola_oil
+milk_sold_total
+work_stop_total
+rmpi_total
+commodity_food
+commodity_fertilizer

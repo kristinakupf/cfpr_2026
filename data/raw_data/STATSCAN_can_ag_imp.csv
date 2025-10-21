@@ -1,0 +1,55 @@
+﻿"Exports and imports of goods and services, quarterly, Canada, North American Product Classification System (NAPCS 2022) (x 1,000,000) 1"
+"Frequency: Quarterly"
+"Table: 12-10-0161-01"
+"Release date: 2024-05-31"
+"Geography: Canada"
+""
+""
+
+"Geography","Canada",,,
+"Prices","Chained (2017) dollars",,,
+"Seasonal adjustment","Seasonally adjusted at annual rates",,,
+"Trade","Imports",,,
+"Estimates","Farm, fishing and intermediate food products","Farm and fishing products","Intermediate food products","Food, beverage and tobacco products"
+"Reference period"
+,"Dollars",,,
+"Q1 2017","18,832","15,288","3,543","28,887"
+"Q2 2017","18,993","15,372","3,623","29,334"
+"Q3 2017","20,414","16,749","3,659","29,355"
+"Q4 2017","21,097","17,514","3,587","29,632"
+"Q1 2018","21,087","17,412","3,672","28,969"
+"Q2 2018","21,098","17,490","3,612","29,428"
+"Q3 2018","21,373","17,942","3,460","29,185"
+"Q4 2018","22,147","18,684","3,504","29,128"
+"Q1 2019","21,039","17,546","3,512","29,665"
+"Q2 2019","21,533","17,815","3,728","29,965"
+"Q3 2019","21,480","17,916","3,580","30,053"
+"Q4 2019","20,805","17,261","3,556","29,450"
+"Q1 2020","21,351","17,627","3,732","29,966"
+"Q2 2020","20,115","16,450","3,664","29,071"
+"Q3 2020","21,608","17,526","4,072","29,871"
+"Q4 2020","22,356","18,091","4,252","30,524"
+"Q1 2021","23,412","19,488","3,964","30,170"
+"Q2 2021","23,000","18,816","4,192","29,930"
+"Q3 2021","23,152","18,889","4,268","29,104"
+"Q4 2021","24,250","19,800","4,456","29,641"
+"Q1 2022","24,570","19,658","4,896","30,133"
+"Q2 2022","25,101","20,150","4,940","31,559"
+"Q3 2022","23,203","18,564","4,624","30,695"
+"Q4 2022","21,264","16,651","4,576","29,848"
+"Q1 2023","23,426","19,087","4,384","29,698"
+"Q2 2023","22,229","17,876","4,356","29,150"
+"Q3 2023","23,894","19,004","4,860","29,412"
+"Q4 2023","25,383","20,509","4,904","29,832"
+"Q1 2024","24,482","19,160","5,236","29,732"
+
+
+
+
+Footnotes:
+1,"This table is based on the North American Product Classification System (NAPCS 2022). For information specifically related to the classification, please see <a href="http://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=817415" rel="external noopener noreferrer" target="_blank">NAPCS (opens new window)</a>."
+
+
+
+"How to cite: Statistics Canada. Table 12-10-0161-01  Exports and imports of goods and services, quarterly, Canada, North American Product Classification System (NAPCS 2022) (x 1,000,000)"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210016101

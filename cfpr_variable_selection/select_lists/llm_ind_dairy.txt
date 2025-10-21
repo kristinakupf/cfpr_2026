@@ -1,0 +1,7 @@
+pcu32533253
+pcu325311325311
+fppi_total
+milk_sold_total
+rmpi_total
+commodity_food
+commodity_fertilizer

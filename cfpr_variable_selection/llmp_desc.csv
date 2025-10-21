@@ -1,0 +1,40 @@
+﻿timeseries_id,type,source,description
+food_cpi_food,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_meat,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_fish,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_dairy,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_bakery,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_fruit,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_vegetables,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_other,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+food_cpi_restaurants,target,Statistics Canada,Food CPI measures changes in food prices experienced by Canadian consumers by comparing the cost of a fixed basket of food items over time.
+policy_uncertainty,economic,Policy Uncertainty,Economic Policy Uncertainty Index tracks policy uncertainty in Canada based on newspaper article analysis.
+apu000072610,economic,FRED,Average price of electricity in U.S. cities measures the average cost of electricity per kilowatt-hour in U.S. cities.
+cwur0000sa0,economic,FRED,"All Items CPI (U.S.) measures average price changes for goods and services in U.S. cities, indicating inflation."
+excaus,economic,FRED,"USD-CAD exchange rate tracks the exchange rate between the U.S. and Canadian dollars, affecting trade and investment."
+fedfunds,economic,FRED,Federal Funds Effective Rate (U.S.) represents the overnight interest rate for trading federal funds among U.S. institutions.
+fmpi,manufacturing,FRED,"Food manufacturing price index (U.S.) monitors price changes in U.S. food manufacturing, reflecting sector inflation trends."
+impca,economic,FRED,"U.S. imports from Canada tracks the value of goods imported by the U.S. from Canada, reflecting trade flow."
+impch,economic,FRED,"U.S. imports from China tracks the value of goods imported by the U.S. from China, reflecting trade flow."
+impmx,economic,FRED,"U.S. imports from Mexico tracks the value of goods imported by the U.S. from Mexico, reflecting trade flow."
+irltlt01cam156n,economic,FRED,"Interest rates measure Canada’s 10-year government bond yields, influencing borrowing costs."
+paynsa,economic,FRED,"Total U.S. employees (Non-farm) measures the total number of non-farm workers in the U.S., indicating labor market health."
+pcu32533253,manufacturing,FRED,Pesticide and fertilizer production price index (U.S.) measures price changes in U.S. pesticide and fertilizer manufacturing.
+pcu324191324191,manufacturing,FRED,Petroleum oil and grease production price index (U.S.) measures price changes in U.S. petroleum lubricating oil and grease manufacturing.
+pcu325311325311,manufacturing,FRED,Nitrogenous fertilizer production price index (U.S.) measures price changes in U.S. nitrogenous fertilizer manufacturing.
+pcu333132333132,manufacturing,FRED,Oil and gas machinery production price index (U.S.) measures price changes for U.S. oil and gas machinery.
+pcu482111482111,manufacturing,FRED,Line haul railroads production price index (U.S.) measures price changes for U.S. line-haul railroad services.
+recprousm156n,economic,FRED,U.S. Recession Probabilities estimate U.S. recession likelihood using a model based on various economic variables.
+unratensa,economic,FRED,U.S. Unemployment Rate represents the percentage of unemployed individuals in the U.S. labor force.
+wtisplc,economic,FRED,"Crude Oil Price refers to the spot price of West Texas Intermediate (WTI) crude oil, affecting global energy costs."
+enso,climate,NOAA,El Niño-Southern Oscillation (ENSO) refers to periodic changes in Pacific Ocean temperatures that impact global weather patterns.
+canola_oil,manufacturing,Statistics Canada,Canola oil production measures the amount of canola oil produced in Canada.
+energy_cpi,economic,Statistics Canada,Energy CPI measures price changes for energy-related products and services in Canada.
+swe_total,climate,CDEC,"Snow Water Equivalent (SWE) measures water content in California’s snowpack, indicating potential water supply."
+pdsi_total,climate,NCEI,"Palmer Drought Severity Index (PDSI) measures soil moisture in U.S. growing regions, indicating drought severity."
+fppi_total,agriculture,Statistics Canada,"Farm product price index tracks price changes for Canadian agricultural commodities, reflecting market conditions."
+milk_sold_total,agriculture,Statistics Canada,"Milk sold off farms measures the volume of milk sold off Canadian farms, indicating dairy sector activity."
+work_stop_total,economic,Statistics Canada,Number of work stoppages (All industries) counts total work stoppages across all Canadian industries due to labor disputes.
+rmpi_total,agriculture,Statistics Canada,"Raw materials price index measures price changes for Canadian raw materials, excluding crude energy products."
+commodity_food,economic,World Bank,"Food commodity price index tracks global price changes for various food items, reflecting market conditions."
+commodity_fertilizer,economic,World Bank,"Fertilizer commodity price index tracks global price changes for fertilizers, reflecting market conditions."

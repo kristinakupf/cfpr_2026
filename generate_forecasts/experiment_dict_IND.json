@@ -1,0 +1,92 @@
+{
+    "Bakery and cereal products (excluding baby food)": [
+        "exp2_R3_Bakery and cereal products (excluding baby food).txt",
+        "exp2_GPT_P3_Bakery and cereal products (excluding baby food).txt",
+        "exp2_R2_Bakery and cereal products (excluding baby food).txt",
+        "exp2_GPT_P2_Bakery and cereal products (excluding baby food).txt",
+        "exp2_R1_Bakery and cereal products (excluding baby food).txt",
+        "exp2_R4_Bakery and cereal products (excluding baby food).txt",
+        "exp2_GPT_P1_Bakery and cereal products (excluding baby food).txt",
+        "exp2_GPT_P4_Bakery and cereal products (excluding baby food).txt"
+    ],
+    "Dairy products and eggs": [
+        "exp2_R3_Dairy products and eggs.txt",
+        "exp2_GPT_P1_Dairy products and eggs.txt",
+        "exp2_GPT_P3_Dairy products and eggs.txt",
+        "exp2_GPT_P2_Dairy products and eggs.txt",
+        "exp2_R4_Dairy products and eggs.txt",
+        "exp2_R1_Dairy products and eggs.txt",
+        "exp2_R2_Dairy products and eggs.txt",
+        "exp2_GPT_P4_Dairy products and eggs.txt"
+    ],
+    "Fish, seafood and other marine products": [
+        "exp2_R2_Fish, seafood and other marine products.txt",
+        "exp2_R4_Fish, seafood and other marine products.txt",
+        "exp2_GPT_P1_Fish, seafood and other marine products.txt",
+        "exp2_R3_Fish, seafood and other marine products.txt",
+        "exp2_GPT_P4_Fish, seafood and other marine products.txt",
+        "exp2_R1_Fish, seafood and other marine products.txt",
+        "exp2_GPT_P3_Fish, seafood and other marine products.txt",
+        "exp2_GPT_P2_Fish, seafood and other marine products.txt"
+    ],
+    "Food purchased from restaurants": [
+        "exp2_R1_Food purchased from restaurants.txt",
+        "exp2_GPT_P4_Food purchased from restaurants.txt",
+        "exp2_R3_Food purchased from restaurants.txt",
+        "exp2_GPT_P2_Food purchased from restaurants.txt",
+        "exp2_GPT_P1_Food purchased from restaurants.txt",
+        "exp2_R2_Food purchased from restaurants.txt",
+        "exp2_R4_Food purchased from restaurants.txt",
+        "exp2_GPT_P3_Food purchased from restaurants.txt"
+    ],
+    "Food": [
+        "exp2_GPT_P2_Food.txt",
+        "exp2_R3_Food.txt",
+        "exp2_GPT_P1_Food.txt",
+        "exp2_R1_Food.txt",
+        "exp2_GPT_P4_Food.txt",
+        "exp2_R4_Food.txt",
+        "exp2_GPT_P3_Food.txt",
+        "exp2_R2_Food.txt"
+    ],
+    "Fruit, fruit preparations and nuts": [
+        "exp2_GPT_P4_Fruit, fruit preparations and nuts.txt",
+        "exp2_R2_Fruit, fruit preparations and nuts.txt",
+        "exp2_R4_Fruit, fruit preparations and nuts.txt",
+        "exp2_GPT_P3_Fruit, fruit preparations and nuts.txt",
+        "exp2_R3_Fruit, fruit preparations and nuts.txt",
+        "exp2_GPT_P2_Fruit, fruit preparations and nuts.txt",
+        "exp2_R1_Fruit, fruit preparations and nuts.txt",
+        "exp2_GPT_P1_Fruit, fruit preparations and nuts.txt"
+    ],
+    "Meat": [
+        "exp2_R4_Meat.txt",
+        "exp2_R1_Meat.txt",
+        "exp2_R3_Meat.txt",
+        "exp2_R2_Meat.txt",
+        "exp2_GPT_P1_Meat.txt",
+        "exp2_GPT_P4_Meat.txt",
+        "exp2_GPT_P3_Meat.txt",
+        "exp2_GPT_P2_Meat.txt"
+    ],
+    "Other food products and non-alcoholic beverages": [
+        "exp2_R3_Other food products and non-alcoholic beverages.txt",
+        "exp2_GPT_P3_Other food products and non-alcoholic beverages.txt",
+        "exp2_R4_Other food products and non-alcoholic beverages.txt",
+        "exp2_GPT_P4_Other food products and non-alcoholic beverages.txt",
+        "exp2_R2_Other food products and non-alcoholic beverages.txt",
+        "exp2_GPT_P1_Other food products and non-alcoholic beverages.txt",
+        "exp2_R1_Other food products and non-alcoholic beverages.txt",
+        "exp2_GPT_P2_Other food products and non-alcoholic beverages.txt"
+    ],
+    "Vegetables and vegetable preparations": [
+        "exp2_GPT_P3_Vegetables and vegetable preparations.txt",
+        "exp2_R1_Vegetables and vegetable preparations.txt",
+        "exp2_R4_Vegetables and vegetable preparations.txt",
+        "exp2_R2_Vegetables and vegetable preparations.txt",
+        "exp2_GPT_P2_Vegetables and vegetable preparations.txt",
+        "exp2_GPT_P1_Vegetables and vegetable preparations.txt",
+        "exp2_R3_Vegetables and vegetable preparations.txt",
+        "exp2_GPT_P4_Vegetables and vegetable preparations.txt"
+    ]
+}

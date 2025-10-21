@@ -1,0 +1,5 @@
+{'model_types': {'Chronos[autogluon__chronos-t5-large]': 'MultiWindowBacktestingModel'}, 'model_performance': {'Chronos[autogluon__chronos-t5-large]': -1.6884548638374157}, 'model_best': 'Chronos[autogluon__chronos-t5-large]', 'model_paths': {'Chronos[autogluon__chronos-t5-large]': ['Chronos[autogluon__chronos-t5-large]']}, 'model_fit_times': {'Chronos[autogluon__chronos-t5-large]': 110.8912570476532}, 'model_pred_times': {'Chronos[autogluon__chronos-t5-large]': 80.8856999874115}, 'model_hyperparams': {'Chronos[autogluon__chronos-t5-large]': {'model_path': 'autogluon/chronos-t5-large'}}, 'leaderboard':                                   model  score_val  pred_time_val  \
+0  Chronos[autogluon__chronos-t5-large]  -1.688455        80.8857   
+
+   fit_time_marginal  fit_order  
+0         110.891257          1  }

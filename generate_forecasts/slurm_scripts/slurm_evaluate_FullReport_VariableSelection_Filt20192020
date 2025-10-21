@@ -1,0 +1,34 @@
+#!/bin/bash
+
+#SBATCH --job-name=FILT20192020_VarSel
+
+#SBATCH --gres=gpu:1
+
+#SBATCH --qos=normal
+
+#SBATCH --mem=10G
+
+#SBATCH --output=./slurm_logs/FILT20192020_VarSel-%j.out
+
+#SBATCH --error=./slurm_logs/FILT20192020_VarSel-%j.err
+
+#SBATCH --time=15:00:00
+
+#SBATCH --mail-type=END,FAIL
+
+
+echo Running on $(hostname)
+
+source /h/kupfersk/cfpr_2025/cfpr_2025/miniconda3/etc/profile.d/conda.sh
+conda activate cfpr_2025_py3.8
+
+
+cd /h/kupfersk/cfpr_2025/generate_forecasts
+
+jupyter nbconvert --to script /h/kupfersk/cfpr_2025/generate_forecasts/autogluon_generate_FullReport_VarSelect_Filt_20192020.ipynb
+
+#ipython
+#srun jupyter nbconvert --to notebook --execute /h/kupfersk/cfpr_2025/generate_forecasts/autogluon_generate_FullReport.ipynb
+
+python /h/kupfersk/cfpr_2025/generate_forecasts/autogluon_generate_FullReport_VarSelect_Filt_20192020.py
+

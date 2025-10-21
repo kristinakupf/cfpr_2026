@@ -1,0 +1,74 @@
+{
+    "Bakery and cereal products (excluding baby food)": [
+        "exp5_geopolitical_Bakery and cereal products (excluding baby food).txt",
+        "exp5_manufacturing_Bakery and cereal products (excluding baby food).txt",
+        "exp5_economic_Bakery and cereal products (excluding baby food).txt",
+        "exp5_climate_Bakery and cereal products (excluding baby food).txt",
+        "exp1_human_Bakery and cereal products (excluding baby food).txt",
+        "exp1_llm_Bakery and cereal products (excluding baby food).txt"
+    ],
+    "Dairy products and eggs": [
+        "exp5_climate_Dairy products and eggs.txt",
+        "exp5_geopolitical_Dairy products and eggs.txt",
+        "exp1_llm_Dairy products and eggs.txt",
+        "exp5_manufacturing_Dairy products and eggs.txt",
+        "exp1_human_Dairy products and eggs.txt",
+        "exp5_economic_Dairy products and eggs.txt"
+    ],
+    "Fish, seafood and other marine products": [
+        "exp1_llm_Fish, seafood and other marine products.txt",
+        "exp5_manufacturing_Fish, seafood and other marine products.txt",
+        "exp5_economic_Fish, seafood and other marine products.txt",
+        "exp5_climate_Fish, seafood and other marine products.txt",
+        "exp1_human_Fish, seafood and other marine products.txt",
+        "exp5_geopolitical_Fish, seafood and other marine products.txt"
+    ],
+    "Food purchased from restaurants": [
+        "exp5_climate_Food purchased from restaurants.txt",
+        "exp1_llm_Food purchased from restaurants.txt",
+        "exp5_geopolitical_Food purchased from restaurants.txt",
+        "exp1_human_Food purchased from restaurants.txt",
+        "exp5_economic_Food purchased from restaurants.txt",
+        "exp5_manufacturing_Food purchased from restaurants.txt"
+    ],
+    "Food": [
+        "exp5_geopolitical_Food.txt",
+        "exp5_climate_Food.txt",
+        "exp1_llm_Food.txt",
+        "exp5_economic_Food.txt",
+        "exp1_human_Food.txt",
+        "exp5_manufacturing_Food.txt"
+    ],
+    "Fruit, fruit preparations and nuts": [
+        "exp1_llm_Fruit, fruit preparations and nuts.txt",
+        "exp5_climate_Fruit, fruit preparations and nuts.txt",
+        "exp5_manufacturing_Fruit, fruit preparations and nuts.txt",
+        "exp5_economic_Fruit, fruit preparations and nuts.txt",
+        "exp5_geopolitical_Fruit, fruit preparations and nuts.txt",
+        "exp1_human_Fruit, fruit preparations and nuts.txt"
+    ],
+    "Meat": [
+        "exp1_human_Meat.txt",
+        "exp1_llm_Meat.txt",
+        "exp5_geopolitical_Meat.txt",
+        "exp5_manufacturing_Meat.txt",
+        "exp5_climate_Meat.txt",
+        "exp5_economic_Meat.txt"
+    ],
+    "Other food products and non-alcoholic beverages": [
+        "exp5_economic_Other food products and non-alcoholic beverages.txt",
+        "exp5_geopolitical_Other food products and non-alcoholic beverages.txt",
+        "exp1_llm_Other food products and non-alcoholic beverages.txt",
+        "exp1_human_Other food products and non-alcoholic beverages.txt",
+        "exp5_climate_Other food products and non-alcoholic beverages.txt",
+        "exp5_manufacturing_Other food products and non-alcoholic beverages.txt"
+    ],
+    "Vegetables and vegetable preparations": [
+        "exp5_manufacturing_Vegetables and vegetable preparations.txt",
+        "exp5_climate_Vegetables and vegetable preparations.txt",
+        "exp5_geopolitical_Vegetables and vegetable preparations.txt",
+        "exp1_llm_Vegetables and vegetable preparations.txt",
+        "exp5_economic_Vegetables and vegetable preparations.txt",
+        "exp1_human_Vegetables and vegetable preparations.txt"
+    ]
+}

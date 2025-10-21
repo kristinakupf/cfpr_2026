@@ -1,0 +1,15 @@
+policy_uncertainty
+cwur0000sa0
+excaus
+fmpi
+irltlt01cam156n
+pcu325311325311
+wtisplc
+canola_oil
+energy_cpi
+swe_total
+pdsi_total
+fppi_total
+milk_sold_total
+commodity_food
+commodity_fertilizer

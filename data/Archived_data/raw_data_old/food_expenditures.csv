@@ -1,0 +1,45 @@
+﻿"Detailed food spending, Canada, regions and provinces 1 2 3 4 5"
+"Frequency: Annual"
+"Table: 11-10-0125-01 (formerly CANSIM 203-0028)"
+"Release date: 2023-10-18"
+"Geography: Canada, Geographical region of Canada, Province or territory"
+""
+""
+
+"Geography 6","Canada",,,,,,,,,,,,
+"Statistic","Average expenditure per household",,,,,,,,,,,,
+"Food expenditures, summary-level categories","Food expenditures 7","Food purchased from stores","Bakery products","Cereal grains and cereal products","Fruit, fruit preparations and nuts","Vegetables and vegetable preparations","Dairy products and eggs","Meat","Fish and seafood","Non-alcoholic beverages and other food products","Food purchased from restaurants","Restaurant meals","Restaurant snacks and beverages"
+"Reference period"
+,"Dollars",,,,,,,,,,,,
+"2010","7,850","5,709","581","359","713","616","899","1,027","199","1,315","2,141","1,885","256"
+"2011","7,791","5,573","560","335","669","621","857","1,012","200","1,319","2,218","1,950","268"
+"2012","7,760","5,564","531","359","696","578","855","1,042","178","1,326","2,195","1,921","274"
+"2013","7,934","5,718","567","320","698","652","876","1,044","200","1,362","2,216","1,963","253"
+"2014","8,109","5,880","562","327","719","675","864","1,182","211","1,342","2,229","1,959","270"
+"2015","8,629","6,126","574","341","755","710","903","1,194","213","1,437","2,502","2,222","281"
+"2016","8,784","6,176","578","347","781","718","888","1,163","203","1,499","2,608","2,303","305"
+"2017","8,968","6,364","588","360","795","787","914","1,165","219","1,536","2,604","2,284","320"
+"2018","..","..","..","..","..","..","..","..","..","..","..","..",".."
+"2019","10,311","7,536","687","420","930","974","1,049","1,481","274","1,721","2,775","2,458","316"
+"2020","..","..","..","..","..","..","..","..","..","..","..","..",".."
+"2021","10,305","8,065","698","464","1,030","967","1,161","1,517","305","1,923","2,189","1,963","226"
+
+Symbol legend:
+.., not available for a specific reference period
+
+
+
+
+Footnotes:
+1,"This table includes the data previously found in table 11-10-0217-01 (formerly CANSIM table 203-0029), which has been archived."
+2,"For more information about survey methodology, data quality, variable definitions and data products, see the Survey of Household Spending User Guide (catalogue number 62F0026MIE) available free on the Statistics Canada website: <a href="https://www5.statcan.gc.ca/olc-cel/olc.action?ObjId=62F0026M&ObjType=2&lang=en&limit=0">Household expenditures research papers series</a>."
+3,"Starting with the 2017 reference year, the Survey of Household Spending (SHS) uses survey weights which take into account population projections from the 2016 Census. Estimates from SHS 2010 to 2016 are based on survey weights which take into account population projections from the 2011 Census."
+4,"To ensure data quality, suppression of expenditure estimates is based on the coefficient of variation (CV). Expenditures that have a CV greater than or equal to 35% are suppressed as they are too unreliable to be published."
+5,"Starting with the 2017 reference year, the Survey of Household Spending is conducted every two years."
+6,"Canada-level statistics include the 10 provinces only."
+7,"Does not include day board paid to other private households, which is now included in childcare expenses in household operations."
+
+
+
+"How to cite: Statistics Canada. Table 11-10-0125-01  Detailed food spending, Canada, regions and provinces"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110012501

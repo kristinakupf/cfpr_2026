@@ -1,0 +1,62 @@
+﻿"Average weekly earnings by industry, annual c 1 2 3 4"
+"Frequency: Annual"
+"Table: 14-10-0204-01 (formerly CANSIM 281-0027)"
+"Release date: 2024-03-28"
+"Geography: Canada, Province or territory"
+""
+""
+
+"Geography","Canada",,,,,,
+"Type of employees","All employees 5",,,,,,
+"Overtime","Including overtime",,,,,,
+"North American Industry Classification System (NAICS) 4","Rail transportation","Truck transportation","General freight trucking","Specialized freight trucking","Support activities for rail transportation","Support activities for road transportation","Freight transportation arrangement"
+"Reference period"
+,"Current dollars",,,,,,
+"2001","874.50","687.09","689.28","684.32","760.20","658.70","1,007.24"
+"2002","887.52","685.07","682.86","687.91","746.31","689.49","982.99"
+"2003","994.63","701.94","697.13","708.13","812.66","694.57","985.66"
+"2004","1,032.96","727.45","714.89","743.52","883.90","758.32","1,011.51"
+"2005","1,056.97","776.17","756.67","801.79","872.00","805.16","976.10"
+"2006","1,070.22","793.63","772.05","821.85","866.92","822.65","964.07"
+"2007","1,141.15","820.57","797.73","850.61","878.13","811.65","946.09"
+"2008","1,162.30","858.37","829.54","896.13","876.14","844.76","956.18"
+"2009","1,186.27","830.76","813.91","854.16","F","828.18","947.26"
+"2010","1,246.24","847.49","835.75","863.70","F","822.69","898.99"
+"2011","1,284.21","877.66","843.15","924.95","F","855.67","911.38"
+"2012","1,369.21","902.77","859.37","961.37","F","852.88","964.78"
+"2013","1,352.93","916.06","867.26","981.63","F","893.42","996.40"
+"2014","1,308.22","960.62","891.68","1,050.41","F","927.69","1,021.06"
+"2015","1,495.75","947.05","885.19","1,031.72","F","879.44","999.51"
+"2016","1,415.43","931.75","895.39","983.34","F","882.99","1,017.83"
+"2017","1,490.35","956.07","918.08","1,010.96","F","916.74","1,019.90"
+"2018","1,374.71","1,007.13","966.19","1,067.30","F","1,002.34","1,101.77"
+"2019","1,682.32","1,050.07","1,016.30","1,100.78","F","1,027.23","1,158.15"
+"2020","1,808.86","1,094.62","1,068.71","1,134.74","F","1,067.22","1,183.53"
+"2021","1,685.29","1,099.94","1,079.44","1,132.46","1,419.04","1,087.51","1,216.94"
+"2022","1,758.74","1,214.82","1,190.06","1,254.53","F","1,152.32","1,252.47"
+"2023","1,844.35","1,225.76","1,200.41","1,266.53","F","1,167.53","1,247.54"
+
+Symbol legend:
+F, too unreliable to be published
+A, data quality: excellent
+B, data quality: very good
+C, data quality: good
+
+
+"Table Corrections:"
+Date,Note
+"","On April 4, 2023, a correction was made to new NAICS 2022 series at the 3 and 4 digit levels for earnings.  The data was to be published with decimal places and not in whole numbers."
+
+
+
+Footnotes:
+1,"The quality indicators take into account various factors that affect the quality of the data, notably the CV, the non-response errors and the imputation errors. Quality indicators indicate the following: A - Excellent; B - Very good; C - Good; D - Acceptable; E - Use with caution; F - Too unreliable to publish or sample size is too small to produce reliable estimates."
+2,"The introduction of administrative data in 2001 and the associated change in methodology resulted in level shifts for some series. This affects the comparability of pre- and post-2001 estimates."
+3,"Earnings data are based on gross payroll before source deductions."
+4,"Industry estimates in this table are based on the 2022 North American Industry Classification System (NAICS) Version 1.0."
+5,""All employees" is the sum of employees paid by the hour, salaried employees and other employees."
+
+
+
+"How to cite: Statistics Canada. Table 14-10-0204-01  Average weekly earnings by industry, annual"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410020401

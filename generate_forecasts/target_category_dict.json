@@ -1,0 +1,95 @@
+{
+    "exp7_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp8_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp1_corr_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Food purchased from restaurants",
+        "food_cpi: Food",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Other food products and non-alcoholic beverages",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp5_geopolitical_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Food purchased from restaurants",
+        "food_cpi: Food",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Other food products and non-alcoholic beverages",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp5_manufacturing_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Food purchased from restaurants",
+        "food_cpi: Food",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Other food products and non-alcoholic beverages",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp5_economic_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Food purchased from restaurants",
+        "food_cpi: Food",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Other food products and non-alcoholic beverages",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp5_climate_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Food purchased from restaurants",
+        "food_cpi: Food",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Other food products and non-alcoholic beverages",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp1_human_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Food purchased from restaurants",
+        "food_cpi: Food",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Other food products and non-alcoholic beverages",
+        "food_cpi: Vegetables and vegetable preparations"
+    ],
+    "exp1_llm_": [
+        "food_cpi: Bakery and cereal products (excluding baby food)",
+        "food_cpi: Dairy products and eggs",
+        "food_cpi: Fish, seafood and other marine products",
+        "food_cpi: Food purchased from restaurants",
+        "food_cpi: Food",
+        "food_cpi: Fruit, fruit preparations and nuts",
+        "food_cpi: Meat",
+        "food_cpi: Other food products and non-alcoholic beverages",
+        "food_cpi: Vegetables and vegetable preparations"
+    ]
+}

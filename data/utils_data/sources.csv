@@ -1,0 +1,71 @@
+Internal Variables,Source
+SWE for North Coast,https://cdec.water.ca.gov/dynamicapp/wsSensorData
+SWE for North Lahontan,https://cdec.water.ca.gov/dynamicapp/wsSensorData
+SWE for San Joaquin,https://cdec.water.ca.gov/dynamicapp/wsSensorData
+SWE for South Lahontan,https://cdec.water.ca.gov/dynamicapp/wsSensorData
+SWE for Sacremento River,https://cdec.water.ca.gov/dynamicapp/wsSensorData
+SWE for Tular Lake,https://cdec.water.ca.gov/dynamicapp/wsSensorData
+Canada News-Based Policy Uncertainty Index,https://www.policyuncertainty.com/canada_monthly.html
+Average Price: Electricity per Kilowatt-Hour in U.S. City Average,https://fred.stlouisfed.org/series/APU000072610
+"Average Weekly Earnings of All Employees, Total Private",https://fred.stlouisfed.org/series/CES0500000011
+Consumer Price Index for All Urban Wage Earners and Clerical Workers: All Items in U.S. City Average,https://fred.stlouisfed.org/series/CWUR0000SA0
+Canadian Dollars to U.S. Dollar Spot Exchange Rate,https://fred.stlouisfed.org/series/EXCAUS
+Federal Funds Effective Rate,https://fred.stlouisfed.org/series/FEDFUNDS
+Food Manufacturing Price Index,https://fred.stlouisfed.org/series/PCU311311
+U.S. Imports of Goods by Customs Basis from Canada,https://fred.stlouisfed.org/series/IMPCA
+U.S. Imports of Goods by Customs Basis from China,https://fred.stlouisfed.org/series/IMPCH
+U.S. Imports of Goods by Customs Basis from Mexico,https://fred.stlouisfed.org/series/IMPMX
+Interest Rates: Long-Term Government Bond Yields: 10-Year: Main (Including Benchmark) for Canada,https://fred.stlouisfed.org/series/IRLTLT01CAM156N
+"All Employees, Total Nonfarm",https://fred.stlouisfed.org/series/PAYNSA
+"Producer Price Index by Industry: Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing",https://fred.stlouisfed.org/series/PCU32533253
+Producer Price Index by Industry: Petroleum Lubricating Oil and Grease Manufacturing,https://fred.stlouisfed.org/series/PCU324191324191
+Producer Price Index by Industry: Nitrogenous Fertilizer Manufacturing,https://fred.stlouisfed.org/series/PCU325311325311
+Producer Price Index by Industry: Oil and Gas Field Machinery and Equipment Manufacturing,https://fred.stlouisfed.org/series/PCU333132333132
+Producer Price Index by Industry: Transportation Industries,https://fred.stlouisfed.org/series/PCUATRANSATRANS
+Producer Price Index by Industry: Line-Haul Railroads,https://fred.stlouisfed.org/series/PCU482111482111
+Smoothed U.S. Recession Probabilities,https://fred.stlouisfed.org/series/RECPROUSM156N
+Unemployment Rate,https://fred.stlouisfed.org/series/UNRATENSA
+Spot Crude Oil Price: West Texas Intermediate (WTI),https://fred.stlouisfed.org/series/WTISPLC
+Search term: avian flu,https://trends.google.com/trends/explore?date=all&geo=CA&q=avian%20flu&hl=en
+Search term: avian influenza,https://trends.google.com/trends/explore?date=all&geo=CA&q=avian%20influenza&hl=en
+Search term: bills,https://trends.google.com/trends/explore?date=all&geo=CA&q=bills&hl=en
+Search term: bird flu,https://trends.google.com/trends/explore?date=all&geo=CA&q=bird%20flu&hl=en
+Search term: credit,https://trends.google.com/trends/explore?date=all&geo=CA&q=credit&hl=en
+Search term:diet,https://trends.google.com/trends/explore?date=all&geo=CA&q=diet&hl=en
+Search term: exchange rate,https://trends.google.com/trends/explore?date=all&geo=CA&q=exchange%20rate&hl=en
+Search term: flu,https://trends.google.com/trends/explore?date=all&geo=CA&q=flu&hl=en
+Search term: food bank,https://trends.google.com/trends/explore?date=all&geo=CA&q=food%20bank&hl=en
+Search term: food shortage,https://trends.google.com/trends/explore?date=all&geo=CA&q=food%20shortage&hl=en
+Search term: free food,https://trends.google.com/trends/explore?date=all&geo=CA&q=food%20shortage&hl=en
+Search term: free meal,https://trends.google.com/trends/explore?date=all&geo=CA&q=free%20meal&hl=en
+Search term: gdp,https://trends.google.com/trends/explore?date=all&geo=CA&q=gdp&hl=en
+Search term: healthy diet,https://trends.google.com/trends/explore?date=all&geo=CA&q=healthy%20diet&hl=en
+Search term: inflation,https://trends.google.com/trends/explore?date=all&geo=CA&q=inflation&hl=en
+Search term: jobs,https://trends.google.com/trends/explore?date=all&geo=CA&q=jobs&hl=en
+Search term: junk food,https://trends.google.com/trends/explore?date=all&geo=CA&q=junk%20food&hl=en
+Search term: loan,https://trends.google.com/trends/explore?date=all&geo=CA&q=loan&hl=en
+Search term: organic food,https://trends.google.com/trends/explore?date=all&geo=CA&q=organic%20food&hl=en
+Search term: war,https://trends.google.com/trends/explore?date=all&geo=CA&q=war&hl=en
+"PDSI: Spring Wheat Belt (area weighted),Primary Hard Red Winter Wheat Belt (area weighted),Winter Wheat Belt (area weighted),Primary Corn and Soybean Belt (area weighted),Corn Belt (area weighted),Soybean Belt (area weighted),Cotton Belt (area weighted),Spring Wheat Belt (productivity weighted),Winter Wheat Belt(productivity weighted),Corn Belt (productivity weighted),Soybean Belt (productivity weighted),California,Iowa,Nebraska,Texas,Illinois
+",https://www.ncei.noaa.gov/pub/data/cirs/climdiv/climdiv-pdsist-v1.0.0-20240705
+El Nino Southern Oscillation,https://psl.noaa.gov/enso/mei/
+Global Supply Chain Price Index,https://www.newyorkfed.org/research/policy/gscpi#/overview
+Oil  produced,https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3210035201
+"GDP: Crop and animal production  [11A] 4,Animal food manufacturing  [3111],Grain and oilseed milling  [3112],Sugar and confectionery product manufacturing  [3113],Fruit and vegetable preserving and specialty food manufacturing  [3114],Dairy product manufacturing  [3115],Meat product manufacturing  [3116],Seafood product preparation and packaging  [3117],Bakeries and tortilla manufacturing  [3118],Other food manufacturing  [3119]",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3610043401
+"Days not worked during work stoppages: All industries,Manufacturing,Wholesale and retail trade 5,Transportation 6,Entertainment and hospitality 7",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410035001
+Energy 5,https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1810000401
+"Food,Meat,""Fish, seafood and other marine products"",Dairy products and eggs,Bakery and cereal products (excluding baby food),""Fruit, fruit preparations and nuts"",Vegetables and vegetable preparations,Other food products and non-alcoholic beverages,Food purchased from restaurants",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3210009801
+"Total index,Total crops,Grains,Oilseeds,Specialty crops,Fresh fruit,Fresh vegetables (except potatoes and pulse crops),Fresh potatoes,Total livestock and animal products 8,Cattle and calves,Hogs,""Chickens, turkeys, chicks, poults"",Eggs in shell 9,Unprocessed milk",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1810000401
+"""Milk sold off farms, total"",Fluid purposes,Industrial purposes",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3210011301
+"Grocery and convenience retailers  [4451],""Supermarkets and other grocery retailers (except convenience retailers)  [44511]"",""Convenience retailers and vending machine operators  [44513]""",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=2010005601
+"Number of work stoppages: All industries,Manufacturing,Wholesale and retail trade 5,Transportation 6,Entertainment and hospitality 7",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410035001
+GDP for rail transportation,https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3610043401
+"Rail price index: Freight Rail Services Price Index  [482113],Grain and fertilizer",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1810021201
+"GDP: Farm product wholesaler-distributors  [411],""Food, beverage and tobacco wholesaler-distributors  [413]"",Food and beverage stores  [445]",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3610043401
+"Raw Materials Price Index: ""Total, Raw materials price indexes (RMPI)"",""Total, excluding crude energy products"",Crop products  [M11],Wheat  [112],Canola (including rapeseed)  [113],""Fresh fruit, nuts and vegetables, and pulse crops  [114]"",Fresh fruit and nuts  [11411],Fresh potatoes  [11421],Fresh vegetables (except potatoes and pulse crops)  [11422],Pulse crops (except soybeans)  [11431],Other crop products  [115],Grains (except wheat)  [11511],Corn for grain  [115111],Oats  [115113],Barley  [115114],Oilseeds (except canola)  [11512],Soybeans  [115121],Oilseeds (except canola and soybeans)  [115122],Other miscellaneous crop products  [11513],""Floriculture and nursery products, and sod  [11514]"",Animals and animal products  [M21],Live animals  [111],Cattle and calves  [11111],Hogs  [11112],Poultry  [11113],Other live animals  [11114],Other animal products  [116],Eggs in shell  [11611],Unprocessed milk  [11612],""Raw furskins, and animal products n.e.c.  [11613]"",""Fish, crustaceans, shellfish and other fishery products  [121]""",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1810026801
+"Transportation price index: Truck transportation,General freight trucking,""General freight trucking, local"",""General freight trucking, long distance"",Specialized freight trucking,Used household and office goods moving,""Specialized freight (except used goods) trucking, local"",""Specialized freight (except used goods) trucking, long distance""",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1810028101
+GDP: Truck transportation,https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3610043401
+Average weekly earnings including overtime for all employees,https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410022201
+"Total wheat milled 1,Total wheat flour produced 1,Millfeeds produced 2",https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3210001601
+Avg crude oil price,https://www.worldbank.org/en/research/commodity-markets
+"OVERALL,	ENERGY,	NONFUEL,	AGRICULTURE,	BEVERAGES,	FOOD	FATS_OILS,	GRAINS,	OTHERFOOD,	RAW_MATERIAL,	TIMBER,	OTHERRAWMAT,	FERTILIZERS,	METMIN,	BASEMET,	PRECIOUSMET,",https://www.worldbank.org/en/research/commodity-markets

@@ -1,0 +1,13 @@
+*__pycache__
+*.DS_Store
+wandb/
+**/model_files/
+**/.ipynb_checkpoints/
+cfpr_2025/
+myenv/
+slurm/
+**slurm_logs/
+cfpr_experiments/
+**/miniconda3/
+cfpr_2025/miniconda3/
+**Full_Report_old

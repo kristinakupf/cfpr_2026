@@ -1,0 +1,13 @@
+apu000072610
+cwur0000sa0
+fmpi
+impca
+impch
+impmx
+paynsa
+pcu32533253
+pcu324191324191
+pcu333132333132
+pcu482111482111
+energy_cpi
+rmpi_total

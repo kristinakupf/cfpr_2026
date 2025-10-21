@@ -1,0 +1,10 @@
+category,top_experiment,mean_score,std_score
+food_cpi: Bakery and cereal products (excluding baby food),claude-3-5-sonnet-20240620_report_False,0.028998585734559768,0.016867550093010494
+food_cpi: Dairy products and eggs,ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_+ag_local_ChronosModel,0.021272125165908203,0.012108896097746898
+"food_cpi: Fish, seafood and other marine products",ag_local_AutoETSModel,0.01715722511197967,0.012116703697292305
+food_cpi: Food purchased from restaurants,ag_global_all_ChronosModel+ag_local_AutoARIMAModel,0.009215616140611638,0.010505662505024143
+food_cpi: Food,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_+ag_global_all_TemporalFusionTransformerModel_exp5_climate_,0.019457795164935406,0.016581259952153937
+"food_cpi: Fruit, fruit preparations and nuts",ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,0.02502859397857019,0.014321413516573626
+food_cpi: Meat,claude-3-5-sonnet-20240620_report_True+ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,0.01640372022243106,0.008234131099076133
+food_cpi: Other food products and non-alcoholic beverages,ag_local_AutoETSModel,0.02542402240195334,0.024702048367286136
+food_cpi: Vegetables and vegetable preparations,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_+ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,0.037785843977533366,0.019491597210882092

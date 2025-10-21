@@ -1,0 +1,38 @@
+{
+    "Bakery and cereal products (excluding baby food)": [
+        "exp7_Bakery and cereal products (excluding baby food).txt",
+        "exp8_Bakery and cereal products (excluding baby food).txt"
+    ],
+    "Dairy products and eggs": [
+        "exp8_Dairy products and eggs.txt",
+        "exp7_Dairy products and eggs.txt"
+    ],
+    "Fish, seafood and other marine products": [
+        "exp8_Fish, seafood and other marine products.txt",
+        "exp7_Fish, seafood and other marine products.txt"
+    ],
+    "Food purchased from restaurants": [
+        "exp8_Food purchased from restaurants.txt",
+        "exp7_Food purchased from restaurants.txt"
+    ],
+    "Food": [
+        "exp7_Food.txt",
+        "exp8_Food.txt"
+    ],
+    "Fruit, fruit preparations and nuts": [
+        "exp8_Fruit, fruit preparations and nuts.txt",
+        "exp7_Fruit, fruit preparations and nuts.txt"
+    ],
+    "Meat": [
+        "exp8_Meat.txt",
+        "exp7_Meat.txt"
+    ],
+    "Other food products and non-alcoholic beverages": [
+        "exp7_Other food products and non-alcoholic beverages.txt",
+        "exp8_Other food products and non-alcoholic beverages.txt"
+    ],
+    "Vegetables and vegetable preparations": [
+        "exp8_Vegetables and vegetable preparations.txt",
+        "exp7_Vegetables and vegetable preparations.txt"
+    ]
+}

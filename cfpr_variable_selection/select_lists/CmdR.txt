@@ -1,0 +1,6 @@
+excaus
+fmpi
+wtisplc
+energy_cpi
+fppi_total
+commodity_food
