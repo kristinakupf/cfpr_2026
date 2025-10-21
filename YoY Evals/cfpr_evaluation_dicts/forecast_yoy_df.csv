@@ -1,0 +1,342 @@
+category,model,forecast_YoY_%,actual_YoY_%,residual_%
+Food,ag_global_all_ChronosModel,2.0501535008173017,2.509550396708799,-0.45939689589149735
+Food,ag_global_all_DLinearModel,0.16489979429916427,2.509550396708799,-2.3446506024096347
+Food,ag_global_all_DeepARModel,1.651296018678382,2.509550396708799,-0.858254378030417
+Food,ag_global_all_DeepARModel_exp1_human_,-14.35982353575889,2.509550396708799,-16.86937393246769
+Food,ag_global_all_DeepARModel_exp1_human_ purchased from restaurants,-14.35982353575889,2.509550396708799,-16.86937393246769
+Food,ag_global_all_DeepARModel_exp1_llm_,-10.308531638702288,2.509550396708799,-12.818082035411088
+Food,ag_global_all_DeepARModel_exp1_llm_ purchased from restaurants,-10.308531638702288,2.509550396708799,-12.818082035411088
+Food,ag_global_all_DeepARModel_exp5_climate_,-13.96253542657673,2.509550396708799,-16.47208582328553
+Food,ag_global_all_DeepARModel_exp5_climate_ purchased from restaurants,-13.96253542657673,2.509550396708799,-16.47208582328553
+Food,ag_global_all_DeepARModel_exp5_geopolitical_,-14.337528126750515,2.509550396708799,-16.847078523459313
+Food,ag_global_all_DeepARModel_exp5_geopolitical_ purchased from restaurants,-14.337528126750515,2.509550396708799,-16.847078523459313
+Food,ag_global_all_DeepARModel_exp5_manufacturing_,-22.11113458095912,2.509550396708799,-24.62068497766792
+Food,ag_global_all_DeepARModel_exp5_manufacturing_ purchased from restaurants,-22.11113458095912,2.509550396708799,-24.62068497766792
+Food,ag_global_all_PatchTSTModel,4.443250661181311,2.509550396708799,1.9337002644725123
+Food,ag_global_all_SimpleFeedForwardModel,4.738987951807239,2.509550396708799,2.22943755509844
+Food,ag_global_all_SimpleFeedForwardModel_exp1_human_,3.313134880987375,2.509550396708799,0.8035844842785758
+Food,ag_global_all_SimpleFeedForwardModel_exp1_llm_,5.114853952394957,2.509550396708799,2.6053035556861577
+Food,ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.270411401704384,2.509550396708799,1.7608610049955846
+Food,ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,3.077270055833098,2.509550396708799,0.567719659124299
+Food,ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,5.645468116367913,2.509550396708799,3.1359177196591137
+Food,ag_global_all_TemporalFusionTransformerModel,3.6245166029973714,2.509550396708799,1.1149662062885723
+Food,ag_global_all_TemporalFusionTransformerModel_exp1_human_,-7.585808992065815,2.509550396708799,-10.095359388774614
+Food,ag_global_all_TemporalFusionTransformerModel_exp1_llm_,-3.4919053776079982,2.509550396708799,-6.001455774316797
+Food,ag_global_all_TemporalFusionTransformerModel_exp5_climate_,-3.3049732588892065,2.509550396708799,-5.8145236555980055
+Food,ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,-7.719930649426962,2.509550396708799,-10.22948104613576
+Food,ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,-3.5542844548927213,2.509550396708799,-6.06383485160152
+Food,ag_global_cpi_with_covariates_TemporalFusionTransformerModel,7.877968851013824,2.509550396708799,5.368418454305025
+Food,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,0.6279535703790873,2.509550396708799,-1.8815968263297118
+Food,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,6.057937114310902,2.509550396708799,3.548386717602103
+Food,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,-0.263566852776968,2.509550396708799,-2.773117249485767
+Food,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,7.617034969144881,2.509550396708799,5.107484572436082
+Food,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,0.9254022920952037,2.509550396708799,-1.5841481046135955
+Food,ag_local_AutoARIMAModel,3.1057175728120794,2.509550396708799,0.5961671761032803
+Food,ag_local_AutoETSModel,3.5944582876006734,2.509550396708799,1.0849078908918743
+Food,ag_local_ChronosModel,1.660464743884083,2.509550396708799,-0.8490856528247162
+Food,ag_local_DLinearModel,1.8627975315897896,2.509550396708799,-0.6467528651190095
+Food,ag_local_DeepARModel,-4.578681921139202,2.509550396708799,-7.088232317848001
+Food,ag_local_NaiveModel,0.49955921245960117,2.509550396708799,-2.009991184249198
+Food,ag_local_PatchTSTModel,-4.835854833970017,2.509550396708799,-7.345405230678816
+Food,ag_local_SeasonalNaiveModel,-0.622979723773126,2.509550396708799,-3.132530120481925
+Food,ag_local_SimpleFeedForwardModel,4.12406817513959,2.509550396708799,1.6145177784307911
+Food,ag_local_TemporalFusionTransformerModel,2.7551724948574834,2.509550396708799,0.2456220981486843
+Meat,ag_global_all_ChronosModel,4.310537612868228,4.496588384639794,-0.1860507717715656
+Meat,ag_global_all_DLinearModel,0.3588469269015153,4.496588384639794,-4.1377414577382785
+Meat,ag_global_all_DeepARModel,1.6014165302237453,4.496588384639794,-2.8951718544160485
+Meat,ag_global_all_PatchTSTModel,4.376240346979796,4.496588384639794,-0.12034803765999769
+Meat,ag_global_all_SimpleFeedForwardModel,4.892862054374275,4.496588384639794,0.3962736697344811
+Meat,ag_global_all_SimpleFeedForwardModel_exp1_human_,3.642112027927649,4.496588384639794,-0.8544763567121447
+Meat,ag_global_all_SimpleFeedForwardModel_exp1_llm_,5.438972812863647,4.496588384639794,0.9423844282238534
+Meat,ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.3578123347085524,4.496588384639794,-0.13877604993124137
+Meat,ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,3.1642928170951157,4.496588384639794,-1.3322955675446781
+Meat,ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,5.356081138262988,4.496588384639794,0.8594927536231944
+Meat,ag_global_all_TemporalFusionTransformerModel,4.148995028033423,4.496588384639794,-0.3475933566063709
+Meat,ag_global_all_TemporalFusionTransformerModel_exp1_human_,5.295551147783779,4.496588384639794,0.7989627631439848
+Meat,ag_global_all_TemporalFusionTransformerModel_exp1_llm_,3.8316254099227813,4.496588384639794,-0.6649629747170125
+Meat,ag_global_all_TemporalFusionTransformerModel_exp5_climate_,6.8685914524489595,4.496588384639794,2.3720030678091657
+Meat,ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,6.041813181000735,4.496588384639794,1.545224796360941
+Meat,ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,5.333856976621188,4.496588384639794,0.8372685919813945
+Meat,ag_global_cpi_with_covariates_TemporalFusionTransformerModel,8.230783349201307,4.496588384639794,3.734194964561513
+Meat,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,2.6069522902782225,4.496588384639794,-1.8896360943615713
+Meat,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,6.098163545964247,4.496588384639794,1.6015751613244529
+Meat,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,0.11265365492436857,4.496588384639794,-4.383934729715425
+Meat,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,7.575426319686865,4.496588384639794,3.078837935047071
+Meat,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,2.467463239183326,4.496588384639794,-2.029125145456468
+Meat,ag_local_AutoARIMAModel,3.5954707648874296,4.496588384639794,-0.9011176197523643
+Meat,ag_local_AutoETSModel,3.9073118349937346,4.496588384639794,-0.5892765496460592
+Meat,ag_local_ChronosModel,3.836399353989391,4.496588384639794,-0.660189030650403
+Meat,ag_local_DLinearModel,2.893712049084934,4.496588384639794,-1.6028763355548596
+Meat,ag_local_DeepARModel,4.227527088555511,4.496588384639794,-0.2690612960842831
+Meat,ag_local_NaiveModel,0.5871152015233331,4.496588384639794,-3.909473183116461
+Meat,ag_local_PatchTSTModel,3.2642790648471283,4.496588384639794,-1.2323093197926656
+Meat,ag_local_SeasonalNaiveModel,-0.7352163334391232,4.496588384639794,-5.231804718078917
+Meat,ag_local_SimpleFeedForwardModel,4.239160055008994,4.496588384639794,-0.2574283296308
+Meat,ag_local_TemporalFusionTransformerModel,12.249481117105683,4.496588384639794,7.752892732465889
+Meat,claude-3-5-sonnet-20240620_report_False,4.300222151697886,4.496588384639794,-0.1963662329419078
+Meat,claude-3-5-sonnet-20240620_report_True,3.813604146831685,4.496588384639794,-0.682984237808109
+Meat,gemini-1.5-pro_report_False,6.347191367819731,4.496588384639794,1.8506029831799369
+Meat,gemini-1.5-pro_report_True,2.5441658732677412,4.496588384639794,-1.9524225113720526
+Meat,gpt-4o_report_False,3.538559187559507,4.496588384639794,-0.958029197080287
+Meat,gpt-4o_report_True,3.538559187559507,4.496588384639794,-0.958029197080287
+"Fish, seafood and other marine products",ag_global_all_ChronosModel,0.9418761260814661,1.9661476197009091,-1.024271493619443
+"Fish, seafood and other marine products",ag_global_all_DLinearModel,0.6294553436685452,1.9661476197009091,-1.3366922760323638
+"Fish, seafood and other marine products",ag_global_all_DeepARModel,3.995902660305492,1.9661476197009091,2.029755040604583
+"Fish, seafood and other marine products",ag_global_all_DeepARModel_exp1_human_,5.128622820452899,1.9661476197009091,3.1624752007519903
+"Fish, seafood and other marine products",ag_global_all_DeepARModel_exp1_llm_,1.6307327871313444,1.9661476197009091,-0.3354148325695647
+"Fish, seafood and other marine products",ag_global_all_DeepARModel_exp5_climate_,3.381495659595689,1.9661476197009091,1.4153480398947798
+"Fish, seafood and other marine products",ag_global_all_DeepARModel_exp5_geopolitical_,-1.8298581003374097,1.9661476197009091,-3.796005720038319
+"Fish, seafood and other marine products",ag_global_all_DeepARModel_exp5_manufacturing_,4.03310393973099,1.9661476197009091,2.0669563200300805
+"Fish, seafood and other marine products",ag_global_all_PatchTSTModel,8.53313005899301,1.9661476197009091,6.566982439292101
+"Fish, seafood and other marine products",ag_global_all_SimpleFeedForwardModel,3.816780765537105,1.9661476197009091,1.8506331458361958
+"Fish, seafood and other marine products",ag_global_all_SimpleFeedForwardModel_exp1_human_,2.575997393332412,1.9661476197009091,0.609849773631503
+"Fish, seafood and other marine products",ag_global_all_SimpleFeedForwardModel_exp1_llm_,4.82722938674715,1.9661476197009091,2.8610817670462407
+"Fish, seafood and other marine products",ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.889010152284275,1.9661476197009091,2.9228625325833657
+"Fish, seafood and other marine products",ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,1.655228426395939,1.9661476197009091,-0.3109191933049702
+"Fish, seafood and other marine products",ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,5.041674440938395,1.9661476197009091,3.0755268212374856
+"Fish, seafood and other marine products",ag_global_all_TemporalFusionTransformerModel,1.6049732473590244,1.9661476197009091,-0.36117437234188476
+"Fish, seafood and other marine products",ag_global_all_TemporalFusionTransformerModel_exp1_human_,1.1441418575936213,1.9661476197009091,-0.8220057621072878
+"Fish, seafood and other marine products",ag_global_all_TemporalFusionTransformerModel_exp1_llm_,0.6644244752366443,1.9661476197009091,-1.301723144464265
+"Fish, seafood and other marine products",ag_global_all_TemporalFusionTransformerModel_exp5_climate_,0.9536417889970947,1.9661476197009091,-1.0125058307038144
+"Fish, seafood and other marine products",ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,1.6112429688571814,1.9661476197009091,-0.3549046508437277
+"Fish, seafood and other marine products",ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,2.1849869666621,1.9661476197009091,0.2188393469611909
+"Fish, seafood and other marine products",ag_global_cpi_with_covariates_TemporalFusionTransformerModel,4.174096583893518,1.9661476197009091,2.207948964192609
+"Fish, seafood and other marine products",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,-0.27317807655373316,1.9661476197009091,-2.2393256962546424
+"Fish, seafood and other marine products",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,3.705386884346256,1.9661476197009091,1.739239264645347
+"Fish, seafood and other marine products",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,1.0304698861297725,1.9661476197009091,-0.9356777335711366
+"Fish, seafood and other marine products",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,4.889748936754001,1.9661476197009091,2.9236013170530915
+"Fish, seafood and other marine products",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,3.8644491699821546,1.9661476197009091,1.8983015502812455
+"Fish, seafood and other marine products",ag_local_AutoARIMAModel,-1.70912612296256,1.9661476197009091,-3.675273742663469
+"Fish, seafood and other marine products",ag_local_AutoETSModel,1.3926012272616886,1.9661476197009091,-0.5735463924392206
+"Fish, seafood and other marine products",ag_local_ChronosModel,1.8735645140847907,1.9661476197009091,-0.09258310561611838
+"Fish, seafood and other marine products",ag_local_DLinearModel,1.8856029633694698,1.9661476197009091,-0.08054465633143937
+"Fish, seafood and other marine products",ag_local_DeepARModel,1.885368670598195,1.9661476197009091,-0.08077894910271421
+"Fish, seafood and other marine products",ag_local_NaiveModel,-0.6036493346138082,1.9661476197009091,-2.569796954314717
+"Fish, seafood and other marine products",ag_local_PatchTSTModel,5.246685416380843,1.9661476197009091,3.280537796679934
+"Fish, seafood and other marine products",ag_local_SeasonalNaiveModel,0.3086843188366031,1.9661476197009091,-1.657463300864306
+"Fish, seafood and other marine products",ag_local_SimpleFeedForwardModel,3.2542433804362636,1.9661476197009091,1.2880957607353545
+"Fish, seafood and other marine products",ag_local_TemporalFusionTransformerModel,5.433818082041424,1.9661476197009091,3.467670462340515
+Dairy products and eggs,ag_global_all_ChronosModel,3.4120237262864435,2.55151476002842,0.8605089662580236
+Dairy products and eggs,ag_global_all_DLinearModel,0.6340559395388006,2.55151476002842,-1.9174588204896192
+Dairy products and eggs,ag_global_all_DeepARModel,2.259067022617942,2.55151476002842,-0.2924477374104777
+Dairy products and eggs,ag_global_all_DeepARModel_exp1_human_,-2.7059148597852825,2.55151476002842,-5.257429619813703
+Dairy products and eggs,ag_global_all_DeepARModel_exp1_llm_,-2.6190015621467513,2.55151476002842,-5.170516322175171
+Dairy products and eggs,ag_global_all_DeepARModel_exp5_climate_,1.021289055403344,2.55151476002842,-1.5302257046250758
+Dairy products and eggs,ag_global_all_DeepARModel_exp5_geopolitical_,-5.2689813934596215,2.55151476002842,-7.820496153488041
+Dairy products and eggs,ag_global_all_DeepARModel_exp5_manufacturing_,-0.978610278577376,2.55151476002842,-3.530125038605796
+Dairy products and eggs,ag_global_all_PatchTSTModel,5.762673599896646,2.55151476002842,3.211158839868226
+Dairy products and eggs,ag_global_all_SimpleFeedForwardModel,4.834383437762399,2.55151476002842,2.282868677733979
+Dairy products and eggs,ag_global_all_SimpleFeedForwardModel_exp1_human_,3.4816471804146873,2.55151476002842,0.9301324203862675
+Dairy products and eggs,ag_global_all_SimpleFeedForwardModel_exp1_llm_,5.43757509204831,2.55151476002842,2.8860603320198903
+Dairy products and eggs,ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.20771332601253,2.55151476002842,1.65619856598411
+Dairy products and eggs,ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,3.0762928751372534,2.55151476002842,0.5247781151088335
+Dairy products and eggs,ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,5.364171565144371,2.55151476002842,2.8126568051159513
+Dairy products and eggs,ag_global_all_TemporalFusionTransformerModel,4.128955493831156,2.55151476002842,1.577440733802736
+Dairy products and eggs,ag_global_all_TemporalFusionTransformerModel_exp1_human_,5.131982430075583,2.55151476002842,2.580467670047163
+Dairy products and eggs,ag_global_all_TemporalFusionTransformerModel_exp1_llm_,3.9755855564885914,2.55151476002842,1.4240707964601715
+Dairy products and eggs,ag_global_all_TemporalFusionTransformerModel_exp5_climate_,6.831959821716932,2.55151476002842,4.280445061688512
+Dairy products and eggs,ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,5.763176797364506,2.55151476002842,3.211662037336086
+Dairy products and eggs,ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,5.358784962211733,2.55151476002842,2.8072702021833136
+Dairy products and eggs,ag_global_cpi_with_covariates_TemporalFusionTransformerModel,8.204953168399957,2.55151476002842,5.653438408371537
+Dairy products and eggs,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,0.5823532071571698,2.55151476002842,-1.96916155287125
+Dairy products and eggs,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,6.175193462954581,2.55151476002842,3.623678702926161
+Dairy products and eggs,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,0.24391964343389536,2.55151476002842,-2.3075951165945243
+Dairy products and eggs,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,7.600449583360243,2.55151476002842,5.048934823331823
+Dairy products and eggs,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,2.832139396679782,2.55151476002842,0.2806246366513623
+Dairy products and eggs,ag_local_AutoARIMAModel,2.654853507649951,2.55151476002842,0.10333874762153128
+Dairy products and eggs,ag_local_AutoETSModel,2.5051583878559054,2.55151476002842,-0.046356372172514426
+Dairy products and eggs,ag_local_ChronosModel,4.471842283642284,2.55151476002842,1.9203275236138646
+Dairy products and eggs,ag_local_DLinearModel,3.3679058200374583,2.55151476002842,0.8163910600090385
+Dairy products and eggs,ag_local_DeepARModel,7.751278950873742,2.55151476002842,5.199764190845322
+Dairy products and eggs,ag_local_NaiveModel,0.9818487177830771,2.55151476002842,-1.5696660422453426
+Dairy products and eggs,ag_local_PatchTSTModel,3.660160196369741,2.55151476002842,1.1086454363413214
+Dairy products and eggs,ag_local_SeasonalNaiveModel,-0.7363865383373409,2.55151476002842,-3.2879012983657607
+Dairy products and eggs,ag_local_SimpleFeedForwardModel,3.9053711000581255,2.55151476002842,1.3538563400297057
+Dairy products and eggs,ag_local_TemporalFusionTransformerModel,4.353482333182593,2.55151476002842,1.8019675731541733
+Bakery and cereal products (excluding baby food),ag_global_all_ChronosModel,1.337854715914466,0.6911665542818506,0.6466881616326154
+Bakery and cereal products (excluding baby food),ag_global_all_DLinearModel,-0.1518234434704544,0.6911665542818506,-0.842989997752305
+Bakery and cereal products (excluding baby food),ag_global_all_DeepARModel,1.7417303228088834,0.6911665542818506,1.0505637685270328
+Bakery and cereal products (excluding baby food),ag_global_all_DeepARModel_exp1_human_,0.03840754503184241,0.6911665542818506,-0.6527590092500082
+Bakery and cereal products (excluding baby food),ag_global_all_DeepARModel_exp1_llm_,-4.156005149424606,0.6911665542818506,-4.847171703706457
+Bakery and cereal products (excluding baby food),ag_global_all_DeepARModel_exp5_climate_,1.5078132408178024,0.6911665542818506,0.8166466865359518
+Bakery and cereal products (excluding baby food),ag_global_all_DeepARModel_exp5_geopolitical_,-6.273422361250866,0.6911665542818506,-6.964588915532716
+Bakery and cereal products (excluding baby food),ag_global_all_DeepARModel_exp5_manufacturing_,-1.9178196295483045,0.6911665542818506,-2.6089861838301553
+Bakery and cereal products (excluding baby food),ag_global_all_PatchTSTModel,4.095781636322764,0.6911665542818506,3.4046150820409133
+Bakery and cereal products (excluding baby food),ag_global_all_SimpleFeedForwardModel,4.511413238930088,0.6911665542818506,3.8202466846482377
+Bakery and cereal products (excluding baby food),ag_global_all_SimpleFeedForwardModel_exp1_human_,3.1188750280961837,0.6911665542818506,2.427708473814333
+Bakery and cereal products (excluding baby food),ag_global_all_SimpleFeedForwardModel_exp1_llm_,4.9745459653854835,0.6911665542818506,4.283379411103633
+Bakery and cereal products (excluding baby food),ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.806993144526856,0.6911665542818506,4.115826590245005
+Bakery and cereal products (excluding baby food),ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,3.1501404810069626,0.6911665542818506,2.458973926725112
+Bakery and cereal products (excluding baby food),ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,6.6200651831872195,0.6911665542818506,5.928898628905369
+Bakery and cereal products (excluding baby food),ag_global_all_TemporalFusionTransformerModel,3.6477112834344667,0.6911665542818506,2.956544729152616
+Bakery and cereal products (excluding baby food),ag_global_all_TemporalFusionTransformerModel_exp1_human_,3.59514610024724,0.6911665542818506,2.9039795459653894
+Bakery and cereal products (excluding baby food),ag_global_all_TemporalFusionTransformerModel_exp1_llm_,2.6509592043155727,0.6911665542818506,1.9597926500337222
+Bakery and cereal products (excluding baby food),ag_global_all_TemporalFusionTransformerModel_exp5_climate_,5.1910266351989165,0.6911665542818506,4.499860080917066
+Bakery and cereal products (excluding baby food),ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,3.1772274668464653,0.6911665542818506,2.4860609125646147
+Bakery and cereal products (excluding baby food),ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,4.747279163857034,0.6911665542818506,4.056112609575184
+Bakery and cereal products (excluding baby food),ag_global_cpi_with_covariates_TemporalFusionTransformerModel,10.08232805124746,0.6911665542818506,9.391161496965609
+Bakery and cereal products (excluding baby food),ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,-0.45393009665093703,0.6911665542818506,-1.1450966509327876
+Bakery and cereal products (excluding baby food),ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,7.05686895931669,0.6911665542818506,6.365702405034839
+Bakery and cereal products (excluding baby food),ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,0.25247415149471014,0.6911665542818506,-0.43869240278714045
+Bakery and cereal products (excluding baby food),ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,9.333752528658124,0.6911665542818506,8.642585974376274
+Bakery and cereal products (excluding baby food),ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,2.337179703304117,0.6911665542818506,1.6460131490222665
+Bakery and cereal products (excluding baby food),ag_local_AutoARIMAModel,-2.1499512023989453,0.6911665542818506,-2.841117756680796
+Bakery and cereal products (excluding baby food),ag_local_AutoETSModel,1.8438785901963672,0.6911665542818506,1.1527120359145167
+Bakery and cereal products (excluding baby food),ag_local_ChronosModel,0.45366036433748386,0.6911665542818506,-0.23750618994436673
+Bakery and cereal products (excluding baby food),ag_local_DLinearModel,3.4864756124971934,0.6911665542818506,2.795309058215343
+Bakery and cereal products (excluding baby food),ag_local_DeepARModel,2.1286648668635078,0.6911665542818506,1.4374983125816572
+Bakery and cereal products (excluding baby food),ag_local_NaiveModel,0.2360080917059879,0.6911665542818506,-0.4551584625758627
+Bakery and cereal products (excluding baby food),ag_local_PatchTSTModel,6.05830017981568,0.6911665542818506,5.367133625533829
+Bakery and cereal products (excluding baby food),ag_local_SeasonalNaiveModel,-0.06181164306584919,0.6911665542818506,-0.7529781973476998
+Bakery and cereal products (excluding baby food),ag_local_SimpleFeedForwardModel,4.643036637446599,0.6911665542818506,3.9518700831647484
+Bakery and cereal products (excluding baby food),ag_local_TemporalFusionTransformerModel,1.0449685322544264,0.6911665542818506,0.35380197797257584
+Bakery and cereal products (excluding baby food),claude-3-5-sonnet-20240620_report_False,0.7417397167902765,0.6911665542818506,0.05057316250842592
+Bakery and cereal products (excluding baby food),claude-3-5-sonnet-20240620_report_True,0.7754551584625605,0.6911665542818506,0.08428860418070994
+Bakery and cereal products (excluding baby food),gemini-1.5-pro_report_False,0.5394470667565582,0.6911665542818506,-0.1517194875252924
+Bakery and cereal products (excluding baby food),gemini-1.5-pro_report_True,0.6743088334457229,0.6911665542818506,-0.016857720836127688
+Bakery and cereal products (excluding baby food),gpt-4o_report_False,0.8822207237581312,0.6911665542818506,0.19105416947628062
+Bakery and cereal products (excluding baby food),gpt-4o_report_True,0.4720161834119902,0.6911665542818506,-0.2191503708698604
+"Fruit, fruit preparations and nuts",ag_global_all_ChronosModel,1.402750035986727,4.475400118553635,-3.072650082566908
+"Fruit, fruit preparations and nuts",ag_global_all_DLinearModel,0.09807416189158893,4.475400118553635,-4.377325956662046
+"Fruit, fruit preparations and nuts",ag_global_all_DeepARModel,2.791205371453927,4.475400118553635,-1.684194747099708
+"Fruit, fruit preparations and nuts",ag_global_all_DeepARModel_exp1_human_,-12.730370429651492,4.475400118553635,-17.205770548205127
+"Fruit, fruit preparations and nuts",ag_global_all_DeepARModel_exp1_llm_,-8.501787430007555,4.475400118553635,-12.97718754856119
+"Fruit, fruit preparations and nuts",ag_global_all_DeepARModel_exp5_climate_,-12.709982665420677,4.475400118553635,-17.185382783974312
+"Fruit, fruit preparations and nuts",ag_global_all_DeepARModel_exp5_geopolitical_,-12.908045425721562,4.475400118553635,-17.383445544275197
+"Fruit, fruit preparations and nuts",ag_global_all_DeepARModel_exp5_manufacturing_,-20.949321737530006,4.475400118553635,-25.424721856083643
+"Fruit, fruit preparations and nuts",ag_global_all_PatchTSTModel,5.618232892050296,4.475400118553635,1.1428327734966608
+"Fruit, fruit preparations and nuts",ag_global_all_SimpleFeedForwardModel,4.246502008825654,4.475400118553635,-0.22889810972798053
+"Fruit, fruit preparations and nuts",ag_global_all_SimpleFeedForwardModel_exp1_human_,2.7754481986432165,4.475400118553635,-1.6999519199104185
+"Fruit, fruit preparations and nuts",ag_global_all_SimpleFeedForwardModel_exp1_llm_,4.7286945926364865,4.475400118553635,0.25329447408285155
+"Fruit, fruit preparations and nuts",ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.257296318250675,4.475400118553635,-0.21810380030296006
+"Fruit, fruit preparations and nuts",ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,2.4141862609497413,4.475400118553635,-2.0612138576038936
+"Fruit, fruit preparations and nuts",ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,5.516721991701233,4.475400118553635,1.0413218731475977
+"Fruit, fruit preparations and nuts",ag_global_all_TemporalFusionTransformerModel,2.4308917868668884,4.475400118553635,-2.0445083316867465
+"Fruit, fruit preparations and nuts",ag_global_all_TemporalFusionTransformerModel_exp1_human_,2.5401725614173767,4.475400118553635,-1.9352275571362583
+"Fruit, fruit preparations and nuts",ag_global_all_TemporalFusionTransformerModel_exp1_llm_,1.7903681749324818,4.475400118553635,-2.685031943621153
+"Fruit, fruit preparations and nuts",ag_global_all_TemporalFusionTransformerModel_exp5_climate_,3.0885852598300545,4.475400118553635,-1.3868148587235805
+"Fruit, fruit preparations and nuts",ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,2.7347961535928156,4.475400118553635,-1.7406039649608194
+"Fruit, fruit preparations and nuts",ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,3.5695264440492585,4.475400118553635,-0.9058736745043765
+"Fruit, fruit preparations and nuts",ag_global_cpi_with_covariates_TemporalFusionTransformerModel,8.131802674043316,4.475400118553635,3.656402555489681
+"Fruit, fruit preparations and nuts",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,2.7552611473358253,4.475400118553635,-1.7201389712178097
+"Fruit, fruit preparations and nuts",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,6.504329183955722,4.475400118553635,2.028929065402087
+"Fruit, fruit preparations and nuts",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,0.6574728314562405,4.475400118553635,-3.8179272870973944
+"Fruit, fruit preparations and nuts",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,8.390470921425274,4.475400118553635,3.9150708028716394
+"Fruit, fruit preparations and nuts",ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,4.085596390700134,4.475400118553635,-0.3898037278535007
+"Fruit, fruit preparations and nuts",ag_local_AutoARIMAModel,2.275400992320868,4.475400118553635,-2.199999126232767
+"Fruit, fruit preparations and nuts",ag_local_AutoETSModel,0.697371264533115,4.475400118553635,-3.77802885402052
+"Fruit, fruit preparations and nuts",ag_local_ChronosModel,1.1914932420820077,4.475400118553635,-3.2839068764716273
+"Fruit, fruit preparations and nuts",ag_local_DLinearModel,0.7827484686820556,4.475400118553635,-3.6926516498715793
+"Fruit, fruit preparations and nuts",ag_local_DeepARModel,1.5292789941875753,4.475400118553635,-2.9461211243660594
+"Fruit, fruit preparations and nuts",ag_local_NaiveModel,1.3633669235328885,4.475400118553635,-3.1120331950207465
+"Fruit, fruit preparations and nuts",ag_local_PatchTSTModel,0.15030165316471567,4.475400118553635,-4.325098465388919
+"Fruit, fruit preparations and nuts",ag_local_SeasonalNaiveModel,-0.2963841138114997,4.475400118553635,-4.7717842323651345
+"Fruit, fruit preparations and nuts",ag_local_SimpleFeedForwardModel,2.771184877823866,4.475400118553635,-1.704215240729769
+"Fruit, fruit preparations and nuts",ag_local_TemporalFusionTransformerModel,4.51520384640715,4.475400118553635,0.03980372785351527
+Vegetables and vegetable preparations,ag_global_all_ChronosModel,2.2552449435473796,1.0564403627063481,1.1988045808410315
+Vegetables and vegetable preparations,ag_global_all_DLinearModel,1.2273227156475435,1.0564403627063481,0.17088235294119536
+Vegetables and vegetable preparations,ag_global_all_DeepARModel,1.4322166912945455,1.0564403627063481,0.37577632858819743
+Vegetables and vegetable preparations,ag_global_all_PatchTSTModel,3.253663682864447,1.0564403627063481,2.1972233201580993
+Vegetables and vegetable preparations,ag_global_all_SimpleFeedForwardModel,5.3997204138572386,1.0564403627063481,4.343280051150891
+Vegetables and vegetable preparations,ag_global_all_SimpleFeedForwardModel_exp1_human_,3.2202319228086758,1.0564403627063481,2.163791560102328
+Vegetables and vegetable preparations,ag_global_all_SimpleFeedForwardModel_exp1_llm_,4.727605789351334,1.0564403627063481,3.6711654266449862
+Vegetables and vegetable preparations,ag_global_all_SimpleFeedForwardModel_exp5_climate_,3.7218792141362687,1.0564403627063481,2.6654388514299203
+Vegetables and vegetable preparations,ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,3.42329923273657,1.0564403627063481,2.3668588700302218
+Vegetables and vegetable preparations,ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,4.89334166472915,1.0564403627063481,3.8369013020228024
+Vegetables and vegetable preparations,ag_global_all_TemporalFusionTransformerModel,4.683014996512452,1.0564403627063481,3.6265746338061042
+Vegetables and vegetable preparations,ag_global_all_TemporalFusionTransformerModel_exp1_human_,7.031143338758442,1.0564403627063481,5.974702976052094
+Vegetables and vegetable preparations,ag_global_all_TemporalFusionTransformerModel_exp1_llm_,6.216262497093723,1.0564403627063481,5.159822134387375
+Vegetables and vegetable preparations,ag_global_all_TemporalFusionTransformerModel_exp5_climate_,8.0397151825157,1.0564403627063481,6.983274819809352
+Vegetables and vegetable preparations,ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,3.195397000697511,1.0564403627063481,2.1389566379911633
+Vegetables and vegetable preparations,ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,5.287078005115098,1.0564403627063481,4.23063764240875
+Vegetables and vegetable preparations,ag_global_cpi_with_covariates_TemporalFusionTransformerModel,7.307290746338066,1.0564403627063481,6.250850383631718
+Vegetables and vegetable preparations,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,1.6585509183910663,1.0564403627063481,0.6021105556847182
+Vegetables and vegetable preparations,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,5.30710241804234,1.0564403627063481,4.250662055335992
+Vegetables and vegetable preparations,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,-0.8865874215298667,1.0564403627063481,-1.943027784236215
+Vegetables and vegetable preparations,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,7.626345617298316,1.0564403627063481,6.569905254591968
+Vegetables and vegetable preparations,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,0.69788479423391,1.0564403627063481,-0.3585555684724381
+Vegetables and vegetable preparations,ag_local_AutoARIMAModel,3.0890124373372885,1.0564403627063481,2.0325720746309406
+Vegetables and vegetable preparations,ag_local_AutoETSModel,0.11887700378401853,1.0564403627063481,-0.9375633589223296
+Vegetables and vegetable preparations,ag_local_ChronosModel,4.247080118427226,1.0564403627063481,3.190639755720878
+Vegetables and vegetable preparations,ag_local_DLinearModel,0.5104336200883711,1.0564403627063481,-0.546006742617977
+Vegetables and vegetable preparations,ag_local_DeepARModel,2.043639668418322,1.0564403627063481,0.9871993057119737
+Vegetables and vegetable preparations,ag_local_NaiveModel,-0.4998837479655858,1.0564403627063481,-1.5563241106719339
+Vegetables and vegetable preparations,ag_local_PatchTSTModel,-0.40176586840269046,1.0564403627063481,-1.4582062311090387
+Vegetables and vegetable preparations,ag_local_SeasonalNaiveModel,-1.1102069286212424,1.0564403627063481,-2.1666472913275907
+Vegetables and vegetable preparations,ag_local_SimpleFeedForwardModel,2.2700023250406987,1.0564403627063481,1.2135619623343505
+Vegetables and vegetable preparations,ag_local_TemporalFusionTransformerModel,0.18944722157639463,1.0564403627063481,-0.8669931411299535
+Vegetables and vegetable preparations,claude-3-5-sonnet-20240620_report_False,0.778888630551045,1.0564403627063481,-0.27755173215530315
+Vegetables and vegetable preparations,claude-3-5-sonnet-20240620_report_True,1.8774703557312329,1.0564403627063481,0.8210299930248848
+Vegetables and vegetable preparations,gemini-1.5-pro_report_False,-0.703324808184138,1.0564403627063481,-1.759765170890486
+Vegetables and vegetable preparations,gemini-1.5-pro_report_True,-0.04301325273191839,1.0564403627063481,-1.0994536154382666
+Vegetables and vegetable preparations,gpt-4o_report_False,-7.928388746803059,1.0564403627063481,-8.984829109509407
+Vegetables and vegetable preparations,gpt-4o_report_True,-7.928388746803059,1.0564403627063481,-8.984829109509407
+Other food products and non-alcoholic beverages,ag_global_all_ChronosModel,2.7753738378453447,3.9323993982700416,-1.1570255604246968
+Other food products and non-alcoholic beverages,ag_global_all_DLinearModel,-0.34990723329572426,3.9323993982700416,-4.282306631565766
+Other food products and non-alcoholic beverages,ag_global_all_DeepARModel,1.9877935540815133,3.9323993982700416,-1.9446058441885283
+Other food products and non-alcoholic beverages,ag_global_all_PatchTSTModel,3.382081609627699,3.9323993982700416,-0.5503177886423427
+Other food products and non-alcoholic beverages,ag_global_all_SimpleFeedForwardModel,4.631839037232035,3.9323993982700416,0.699439638961993
+Other food products and non-alcoholic beverages,ag_global_all_SimpleFeedForwardModel_exp1_human_,3.221742509715438,3.9323993982700416,-0.7106568885546034
+Other food products and non-alcoholic beverages,ag_global_all_SimpleFeedForwardModel_exp1_llm_,5.061288705026962,3.9323993982700416,1.1288893067569208
+Other food products and non-alcoholic beverages,ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.355105929547463,3.9323993982700416,0.4227065312774214
+Other food products and non-alcoholic beverages,ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,3.1220502695248933,3.9323993982700416,-0.8103491287451483
+Other food products and non-alcoholic beverages,ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,6.020312774225908,3.9323993982700416,2.0879133759558663
+Other food products and non-alcoholic beverages,ag_global_all_TemporalFusionTransformerModel,3.6205465713927536,3.9323993982700416,-0.311852826877288
+Other food products and non-alcoholic beverages,ag_global_all_TemporalFusionTransformerModel_exp1_human_,5.06338159709164,3.9323993982700416,1.1309821988215982
+Other food products and non-alcoholic beverages,ag_global_all_TemporalFusionTransformerModel_exp1_llm_,3.8185777861351555,3.9323993982700416,-0.11382161213488606
+Other food products and non-alcoholic beverages,ag_global_all_TemporalFusionTransformerModel_exp5_climate_,6.419961138272552,3.9323993982700416,2.4875617400025107
+Other food products and non-alcoholic beverages,ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,4.825306506205345,3.9323993982700416,0.892907107935303
+Other food products and non-alcoholic beverages,ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,5.2292572395637515,3.9323993982700416,1.29685784129371
+Other food products and non-alcoholic beverages,ag_global_cpi_with_covariates_TemporalFusionTransformerModel,9.263087000125374,3.9323993982700416,5.330687601855333
+Other food products and non-alcoholic beverages,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,-0.3773097655760238,3.9323993982700416,-4.309709163846065
+Other food products and non-alcoholic beverages,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,6.92141719944842,3.9323993982700416,2.989017801178379
+Other food products and non-alcoholic beverages,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,-0.29026325686347265,3.9323993982700416,-4.222662655133514
+Other food products and non-alcoholic beverages,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,9.068837908988364,3.9323993982700416,5.136438510718323
+Other food products and non-alcoholic beverages,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,1.7394803810956583,3.9323993982700416,-2.1929190171743835
+Other food products and non-alcoholic beverages,ag_local_AutoARIMAModel,2.6871728087093425,3.9323993982700416,-1.245226589560699
+Other food products and non-alcoholic beverages,ag_local_AutoETSModel,4.100853911878915,3.9323993982700416,0.16845451360887376
+Other food products and non-alcoholic beverages,ag_local_ChronosModel,2.311029012182008,3.9323993982700416,-1.6213703860880337
+Other food products and non-alcoholic beverages,ag_local_DLinearModel,1.5260912623793481,3.9323993982700416,-2.4063081358906935
+Other food products and non-alcoholic beverages,ag_local_DeepARModel,-6.20872121683947,3.9323993982700416,-10.14112061510951
+Other food products and non-alcoholic beverages,ag_local_NaiveModel,0.6957502820609337,3.9323993982700416,-3.236649116209108
+Other food products and non-alcoholic beverages,ag_local_PatchTSTModel,-5.961000376081236,3.9323993982700416,-9.893399774351277
+Other food products and non-alcoholic beverages,ag_local_SeasonalNaiveModel,-0.5891939325560867,3.9323993982700416,-4.5215933308261285
+Other food products and non-alcoholic beverages,ag_local_SimpleFeedForwardModel,5.210313401027957,3.9323993982700416,1.2779140027579152
+Other food products and non-alcoholic beverages,ag_local_TemporalFusionTransformerModel,0.2562366804563151,3.9323993982700416,-3.6761627178137264
+Food purchased from restaurants,ag_global_all_ChronosModel,3.1900929621621015,1.5506093723178933,1.6394835898442082
+Food purchased from restaurants,ag_global_all_DLinearModel,0.057825141614694396,1.5506093723178933,-1.4927842307031989
+Food purchased from restaurants,ag_global_all_DeepARModel,1.5520614761096685,1.5506093723178933,0.0014521037917751833
+Food purchased from restaurants,ag_global_all_DeepARModel_exp1_human_,-0.08256631427644125,1.5506093723178933,-1.6331756865943345
+Food purchased from restaurants,ag_global_all_DeepARModel_exp1_llm_,-2.5590406263857557,1.5506093723178933,-4.109649998703649
+Food purchased from restaurants,ag_global_all_DeepARModel_exp5_climate_,0.13898428336169483,1.5506093723178933,-1.4116250889561985
+Food purchased from restaurants,ag_global_all_DeepARModel_exp5_geopolitical_,-6.388368064713173,1.5506093723178933,-7.938977437031067
+Food purchased from restaurants,ag_global_all_DeepARModel_exp5_manufacturing_,-3.7541132289211876,1.5506093723178933,-5.304722601239081
+Food purchased from restaurants,ag_global_all_PatchTSTModel,4.587427476111438,1.5506093723178933,3.0368181037935447
+Food purchased from restaurants,ag_global_all_SimpleFeedForwardModel,4.293809578302914,1.5506093723178933,2.743200205985021
+Food purchased from restaurants,ag_global_all_SimpleFeedForwardModel_exp1_human_,3.4528734908737175,1.5506093723178933,1.9022641185558242
+Food purchased from restaurants,ag_global_all_SimpleFeedForwardModel_exp1_llm_,5.116182411168968,1.5506093723178933,3.565573038851075
+Food purchased from restaurants,ag_global_all_SimpleFeedForwardModel_exp5_climate_,4.35195800194541,1.5506093723178933,2.8013486296275163
+Food purchased from restaurants,ag_global_all_SimpleFeedForwardModel_exp5_geopolitical_,3.1423808433941716,1.5506093723178933,1.5917714710762783
+Food purchased from restaurants,ag_global_all_SimpleFeedForwardModel_exp5_manufacturing_,5.569616639011281,1.5506093723178933,4.019007266693388
+Food purchased from restaurants,ag_global_all_TemporalFusionTransformerModel,3.3383635635406437,1.5506093723178933,1.7877541912227504
+Food purchased from restaurants,ag_global_all_TemporalFusionTransformerModel_exp1_human_,-7.475575327573386,1.5506093723178933,-9.02618469989128
+Food purchased from restaurants,ag_global_all_TemporalFusionTransformerModel_exp1_llm_,4.065899181781772,1.5506093723178933,2.5152898094638783
+Food purchased from restaurants,ag_global_all_TemporalFusionTransformerModel_exp5_climate_,5.5324620930365755,1.5506093723178933,3.981852720718682
+Food purchased from restaurants,ag_global_all_TemporalFusionTransformerModel_exp5_geopolitical_,4.59489500486353,1.5506093723178933,3.0442856325456367
+Food purchased from restaurants,ag_global_all_TemporalFusionTransformerModel_exp5_manufacturing_,-3.7894346855867815,1.5506093723178933,-5.340044057904675
+Food purchased from restaurants,ag_global_cpi_with_covariates_TemporalFusionTransformerModel,7.132931853292887,1.5506093723178933,5.582322480974994
+Food purchased from restaurants,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_human_,0.9637437775361815,1.5506093723178933,-0.5868655947817119
+Food purchased from restaurants,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp1_llm_,5.146027922412311,1.5506093723178933,3.5954185500944176
+Food purchased from restaurants,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_climate_,-0.6054219831778944,1.5506093723178933,-2.156031355495788
+Food purchased from restaurants,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_geopolitical_,6.835772157692975,1.5506093723178933,5.285162785375081
+Food purchased from restaurants,ag_global_cpi_with_covariates_TemporalFusionTransformerModel_exp5_manufacturing_,0.07355781884762058,1.5506093723178933,-1.4770515534702726
+Food purchased from restaurants,ag_local_AutoARIMAModel,3.218808359068795,1.5506093723178933,1.6681989867509015
+Food purchased from restaurants,ag_local_AutoETSModel,4.047394036240112,1.5506093723178933,2.4967846639222184
+Food purchased from restaurants,ag_local_ChronosModel,3.4982647115226335,1.5506093723178933,1.9476553392047402
+Food purchased from restaurants,ag_local_DLinearModel,2.4357595697201924,1.5506093723178933,0.885150197402299
+Food purchased from restaurants,ag_local_DeepARModel,0.9410254202398157,1.5506093723178933,-0.6095839520780776
+Food purchased from restaurants,ag_local_NaiveModel,0.4176918235395048,1.5506093723178933,-1.1329175487783885
+Food purchased from restaurants,ag_local_PatchTSTModel,-5.541719974824073,1.5506093723178933,-7.092329347141966
+Food purchased from restaurants,ag_local_SeasonalNaiveModel,-0.7724437832579962,1.5506093723178933,-2.3230531555758898
+Food purchased from restaurants,ag_local_SimpleFeedForwardModel,3.8937208903129803,1.5506093723178933,2.343111517995087
+Food purchased from restaurants,ag_local_TemporalFusionTransformerModel,3.8065051210161736,1.5506093723178933,2.25589574869828
