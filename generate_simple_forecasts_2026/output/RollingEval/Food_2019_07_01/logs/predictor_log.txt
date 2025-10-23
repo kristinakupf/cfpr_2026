@@ -1,0 +1,2923 @@
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to './output/RollingEval/Food_2019_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.72 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25317.68 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 139 rows, 1 time series. Median time series length is 139 (min=139, max=139). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 20:58:58
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0192       = Validation score (-MAPE)
+	1.41    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0170       = Validation score (-MAPE)
+	1.28    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0201       = Validation score (-MAPE)
+	1.07    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.04, 'SimpleFeedForward': 0.6, 'TemporalFusionTransformer': 0.36}
+	-0.0089       = Validation score (-MAPE)
+	0.39    s     = Training runtime
+	0.15    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.37 s
+Best model: WeightedEnsemble
+Best model score: -0.0089
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2019_07_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2019_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.71 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25317.23 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 139 rows, 1 time series. Median time series length is 139 (min=139, max=139). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:00:11
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0192       = Validation score (-MAPE)
+	1.44    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0215       = Validation score (-MAPE)
+	1.25    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0085       = Validation score (-MAPE)
+	1.08    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.08, 'SimpleFeedForward': 0.92}
+	-0.0082       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.12    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.36 s
+Best model: WeightedEnsemble
+Best model score: -0.0082
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2019_07_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2019_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.70 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25317.25 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 139 rows, 1 time series. Median time series length is 139 (min=139, max=139). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:01:27
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0190       = Validation score (-MAPE)
+	1.75    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.1s of the 3.2s of remaining time.
+	-0.0280       = Validation score (-MAPE)
+	1.15    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.9s of the 1.9s of remaining time.
+	-0.0079       = Validation score (-MAPE)
+	0.98    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.08, 'SimpleFeedForward': 0.92}
+	-0.0076       = Validation score (-MAPE)
+	0.41    s     = Training runtime
+	0.12    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.51 s
+Best model: WeightedEnsemble
+Best model score: -0.0076
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2019_07_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2019_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.66 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25317.03 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 139 rows, 1 time series. Median time series length is 139 (min=139, max=139). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:02:25
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0192       = Validation score (-MAPE)
+	1.44    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0355       = Validation score (-MAPE)
+	1.24    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0085       = Validation score (-MAPE)
+	1.08    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0085       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.36 s
+Best model: SimpleFeedForward
+Best model score: -0.0085
+Model not specified in predict, will default to the model with the best validation score: SimpleFeedForward
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2020_07_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2020_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.68 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25317.01 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 151 rows, 1 time series. Median time series length is 151 (min=151, max=151). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:02:29
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0360       = Validation score (-MAPE)
+	1.41    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0246       = Validation score (-MAPE)
+	1.26    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0245       = Validation score (-MAPE)
+	1.11    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.47, 'SimpleFeedForward': 0.42, 'TemporalFusionTransformer': 0.1}
+	-0.0220       = Validation score (-MAPE)
+	0.39    s     = Training runtime
+	0.14    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.38 s
+Best model: WeightedEnsemble
+Best model score: -0.0220
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021_07_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.68 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25316.99 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 163 rows, 1 time series. Median time series length is 163 (min=163, max=163). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:02:34
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0334       = Validation score (-MAPE)
+	1.46    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0324       = Validation score (-MAPE)
+	1.24    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0081       = Validation score (-MAPE)
+	1.09    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.12, 'SimpleFeedForward': 0.88}
+	-0.0062       = Validation score (-MAPE)
+	0.37    s     = Training runtime
+	0.12    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.37 s
+Best model: WeightedEnsemble
+Best model score: -0.0062
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022_07_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.68 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25316.97 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 175 rows, 1 time series. Median time series length is 175 (min=175, max=175). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:02:39
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0558       = Validation score (-MAPE)
+	1.45    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0510       = Validation score (-MAPE)
+	1.24    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0246       = Validation score (-MAPE)
+	1.10    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.22, 'SimpleFeedForward': 0.78}
+	-0.0226       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.35 s
+Best model: WeightedEnsemble
+Best model score: -0.0226
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023_07_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023_07_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.68 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25317.02 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 187 rows, 1 time series. Median time series length is 187 (min=187, max=187). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:02:43
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.1059       = Validation score (-MAPE)
+	1.42    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0759       = Validation score (-MAPE)
+	1.25    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0559       = Validation score (-MAPE)
+	1.09    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0559       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.35 s
+Best model: SimpleFeedForward
+Best model score: -0.0559
+Model not specified in predict, will default to the model with the best validation score: SimpleFeedForward
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2020_08_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2020_08_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.67 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25316.32 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 152 rows, 1 time series. Median time series length is 152 (min=152, max=152). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:06:55
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0360       = Validation score (-MAPE)
+	1.46    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0335       = Validation score (-MAPE)
+	1.22    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0256       = Validation score (-MAPE)
+	1.08    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0256       = Validation score (-MAPE)
+	0.37    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.34 s
+Best model: SimpleFeedForward
+Best model score: -0.0256
+Model not specified in predict, will default to the model with the best validation score: SimpleFeedForward
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021_08_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021_08_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.68 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25316.30 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 164 rows, 1 time series. Median time series length is 164 (min=164, max=164). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:06:59
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0324       = Validation score (-MAPE)
+	1.41    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0302       = Validation score (-MAPE)
+	1.22    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0095       = Validation score (-MAPE)
+	1.10    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0095       = Validation score (-MAPE)
+	0.36    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.32 s
+Best model: SimpleFeedForward
+Best model score: -0.0095
+Model not specified in predict, will default to the model with the best validation score: SimpleFeedForward
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022_08_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022_08_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.67 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25316.26 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 176 rows, 1 time series. Median time series length is 176 (min=176, max=176). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:07:03
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 4.9s of remaining time.
+	-0.0603       = Validation score (-MAPE)
+	1.43    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0310       = Validation score (-MAPE)
+	1.23    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0276       = Validation score (-MAPE)
+	1.08    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.31, 'SimpleFeedForward': 0.69}
+	-0.0242       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.33 s
+Best model: WeightedEnsemble
+Best model score: -0.0242
+Model not specified in predict, will default to the model with the best validation score: WeightedEnsemble
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023_08_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023_08_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.64 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25316.24 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 188 rows, 1 time series. Median time series length is 188 (min=188, max=188). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:07:08
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.1051       = Validation score (-MAPE)
+	1.38    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.6s of remaining time.
+	-0.0681       = Validation score (-MAPE)
+	1.25    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0688       = Validation score (-MAPE)
+	1.11    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 1.0}
+	-0.0681       = Validation score (-MAPE)
+	0.37    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.31 s
+Best model: DeepAR
+Best model score: -0.0681
+Model not specified in predict, will default to the model with the best validation score: DeepAR
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2024_08_01"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2024_08_01'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.64 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25316.22 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 200 rows, 1 time series. Median time series length is 200 (min=200, max=200). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:07:12
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0830       = Validation score (-MAPE)
+	1.39    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0997       = Validation score (-MAPE)
+	1.23    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0298       = Validation score (-MAPE)
+	1.11    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0298       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.32 s
+Best model: SimpleFeedForward
+Best model score: -0.0298
+Model not specified in predict, will default to the model with the best validation score: SimpleFeedForward
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.64 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25315.50 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 152 rows, 1 time series. Median time series length is 152 (min=152, max=152). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:10:42
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0363       = Validation score (-MAPE)
+	1.42    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0335       = Validation score (-MAPE)
+	1.22    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0196       = Validation score (-MAPE)
+	1.09    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 0.75, 'TemporalFusionTransformer': 0.25}
+	-0.0145       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.03    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.32 s
+Best model: WeightedEnsemble
+Best model score: -0.0145
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.65 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25315.47 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 164 rows, 1 time series. Median time series length is 164 (min=164, max=164). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:10:46
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0324       = Validation score (-MAPE)
+	1.38    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.6s of remaining time.
+	-0.0428       = Validation score (-MAPE)
+	1.26    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0051       = Validation score (-MAPE)
+	1.14    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.06, 'SimpleFeedForward': 0.94}
+	-0.0045       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.13    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.37 s
+Best model: WeightedEnsemble
+Best model score: -0.0045
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.61 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25315.45 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 176 rows, 1 time series. Median time series length is 176 (min=176, max=176). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:10:51
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0603       = Validation score (-MAPE)
+	1.46    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0347       = Validation score (-MAPE)
+	1.22    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0276       = Validation score (-MAPE)
+	1.11    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.27, 'SimpleFeedForward': 0.73}
+	-0.0245       = Validation score (-MAPE)
+	0.37    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.35 s
+Best model: WeightedEnsemble
+Best model score: -0.0245
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2024"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2024'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.62 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25315.43 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 188 rows, 1 time series. Median time series length is 188 (min=188, max=188). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:10:55
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.1051       = Validation score (-MAPE)
+	1.44    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0488       = Validation score (-MAPE)
+	1.22    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0688       = Validation score (-MAPE)
+	1.09    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 1.0}
+	-0.0488       = Validation score (-MAPE)
+	0.37    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.32 s
+Best model: DeepAR
+Best model score: -0.0488
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2025"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2025'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.62 GB / 125.17 GB (91.6%)
+Disk Space Avail:   25315.48 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 200 rows, 1 time series. Median time series length is 200 (min=200, max=200). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:11:00
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0856       = Validation score (-MAPE)
+	1.39    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.6s of remaining time.
+	-0.0555       = Validation score (-MAPE)
+	1.24    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0643       = Validation score (-MAPE)
+	1.11    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 1.0}
+	-0.0555       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.34 s
+Best model: DeepAR
+Best model score: -0.0555
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2021'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.56 GB / 125.17 GB (91.5%)
+Disk Space Avail:   25310.68 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 152 rows, 1 time series. Median time series length is 152 (min=152, max=152). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:21:11
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0365       = Validation score (-MAPE)
+	1.43    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0161       = Validation score (-MAPE)
+	1.24    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.1s of remaining time.
+	-0.0172       = Validation score (-MAPE)
+	1.09    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.58, 'SimpleFeedForward': 0.28, 'TemporalFusionTransformer': 0.13}
+	-0.0107       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.13    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.37 s
+Best model: WeightedEnsemble
+Best model score: -0.0107
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2022'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.55 GB / 125.17 GB (91.5%)
+Disk Space Avail:   25310.66 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 164 rows, 1 time series. Median time series length is 164 (min=164, max=164). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:21:16
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0347       = Validation score (-MAPE)
+	1.42    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0222       = Validation score (-MAPE)
+	1.23    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0219       = Validation score (-MAPE)
+	1.10    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.63, 'SimpleFeedForward': 0.06, 'TemporalFusionTransformer': 0.31}
+	-0.0101       = Validation score (-MAPE)
+	0.39    s     = Training runtime
+	0.13    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.36 s
+Best model: WeightedEnsemble
+Best model score: -0.0101
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2023'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.56 GB / 125.17 GB (91.5%)
+Disk Space Avail:   25310.64 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 176 rows, 1 time series. Median time series length is 176 (min=176, max=176). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:21:21
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0607       = Validation score (-MAPE)
+	1.42    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0537       = Validation score (-MAPE)
+	1.24    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0276       = Validation score (-MAPE)
+	1.11    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0276       = Validation score (-MAPE)
+	0.37    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.34 s
+Best model: SimpleFeedForward
+Best model score: -0.0276
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2024"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2024'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.56 GB / 125.17 GB (91.5%)
+Disk Space Avail:   25310.63 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 188 rows, 1 time series. Median time series length is 188 (min=188, max=188). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:21:25
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.1056       = Validation score (-MAPE)
+	1.42    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0542       = Validation score (-MAPE)
+	1.25    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0688       = Validation score (-MAPE)
+	1.09    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 1.0}
+	-0.0542       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.35 s
+Best model: DeepAR
+Best model score: -0.0542
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2025"
+Beginning AutoGluon training... Time limit = 5s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Rolling_Forecasts/Food/2025'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.57 GB / 125.17 GB (91.5%)
+Disk Space Avail:   25310.68 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 5,
+ 'verbosity': 2}
+
+Provided train_data has 200 rows, 1 time series. Median time series length is 200 (min=200, max=200). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:21:30
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 1.0s of the 5.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 1.2s of the 5.0s of remaining time.
+	-0.0824       = Validation score (-MAPE)
+	1.42    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 1.2s of the 3.5s of remaining time.
+	-0.0959       = Validation score (-MAPE)
+	1.24    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1.1s of the 2.2s of remaining time.
+	-0.0413       = Validation score (-MAPE)
+	1.09    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0413       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 4.33 s
+Best model: SimpleFeedForward
+Best model score: -0.0413
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2021"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2021'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.55 GB / 125.17 GB (91.5%)
+Disk Space Avail:   25310.18 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 152 rows, 1 time series. Median time series length is 152 (min=152, max=152). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:29:37
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1800.0s of remaining time.
+	-0.0068       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	18.88   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 445.3s of the 1781.0s of remaining time.
+	-0.0064       = Validation score (-MAPE)
+	127.81  s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 551.1s of the 1653.2s of remaining time.
+	-0.0117       = Validation score (-MAPE)
+	46.12   s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1006.9s of the 1606.9s of remaining time.
+	-0.0049       = Validation score (-MAPE)
+	18.66   s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 0.7, 'TemporalFusionTransformer': 0.3}
+	-0.0043       = Validation score (-MAPE)
+	0.50    s     = Training runtime
+	0.04    s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 212.23 s
+Best model: WeightedEnsemble
+Best model score: -0.0043
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2022"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2022'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       113.55 GB / 125.17 GB (90.7%)
+Disk Space Avail:   25310.11 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 164 rows, 1 time series. Median time series length is 164 (min=164, max=164). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:33:28
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1800.0s of remaining time.
+	-0.0093       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	18.02   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 445.5s of the 1781.9s of remaining time.
+	-0.0147       = Validation score (-MAPE)
+	121.01  s     = Training runtime
+	0.03    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 553.6s of the 1660.9s of remaining time.
+	-0.0045       = Validation score (-MAPE)
+	43.94   s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1016.8s of the 1616.8s of remaining time.
+	-0.0061       = Validation score (-MAPE)
+	16.53   s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.41, 'SimpleFeedForward': 0.5, 'TemporalFusionTransformer': 0.09}
+	-0.0041       = Validation score (-MAPE)
+	0.49    s     = Training runtime
+	0.15    s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 200.25 s
+Best model: WeightedEnsemble
+Best model score: -0.0041
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2023"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2023'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       113.55 GB / 125.17 GB (90.7%)
+Disk Space Avail:   25309.75 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 176 rows, 1 time series. Median time series length is 176 (min=176, max=176). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:36:49
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1800.0s of remaining time.
+	-0.0361       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	0.32    s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 449.9s of the 1799.6s of remaining time.
+	-0.0315       = Validation score (-MAPE)
+	106.43  s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 564.4s of the 1693.1s of remaining time.
+	-0.0326       = Validation score (-MAPE)
+	37.55   s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1055.5s of the 1655.5s of remaining time.
+	-0.0276       = Validation score (-MAPE)
+	12.34   s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0276       = Validation score (-MAPE)
+	0.48    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 157.38 s
+Best model: SimpleFeedForward
+Best model score: -0.0276
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2024"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2024'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       113.27 GB / 125.17 GB (90.5%)
+Disk Space Avail:   25309.24 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 188 rows, 1 time series. Median time series length is 188 (min=188, max=188). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:39:45
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1800.0s of remaining time.
+	-0.0386       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	18.03   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 445.5s of the 1781.9s of remaining time.
+	-0.0484       = Validation score (-MAPE)
+	138.09  s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 547.9s of the 1643.8s of remaining time.
+	-0.0922       = Validation score (-MAPE)
+	27.66   s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1016.0s of the 1616.0s of remaining time.
+	-0.0688       = Validation score (-MAPE)
+	10.73   s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'AutoETS': 1.0}
+	-0.0386       = Validation score (-MAPE)
+	0.49    s     = Training runtime
+	18.03   s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 195.25 s
+Best model: AutoETS
+Best model score: -0.0386
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2025"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Food/2025'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       113.25 GB / 125.17 GB (90.5%)
+Disk Space Avail:   25309.33 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 200 rows, 1 time series. Median time series length is 200 (min=200, max=200). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:43:01
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1799.9s of remaining time.
+	-0.0055       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	0.37    s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 449.9s of the 1799.5s of remaining time.
+	-0.0150       = Validation score (-MAPE)
+	91.29   s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 569.4s of the 1708.2s of remaining time.
+	-0.0939       = Validation score (-MAPE)
+	24.85   s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1083.2s of the 1683.2s of remaining time.
+	-0.0219       = Validation score (-MAPE)
+	11.54   s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'AutoETS': 1.0}
+	-0.0055       = Validation score (-MAPE)
+	0.48    s     = Training runtime
+	0.37    s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 128.78 s
+Best model: AutoETS
+Best model score: -0.0055
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2021"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2021'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.21 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.55 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 416 rows, 1 time series. Median time series length is 416 (min=416, max=416). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:54:38
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1800.0s of remaining time.
+	-0.0288       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	18.72   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 445.3s of the 1781.2s of remaining time.
+	-0.0080       = Validation score (-MAPE)
+	81.68   s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 566.5s of the 1699.5s of remaining time.
+	-0.0134       = Validation score (-MAPE)
+	75.81   s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1023.5s of the 1623.5s of remaining time.
+	-0.0059       = Validation score (-MAPE)
+	26.83   s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 1.0}
+	-0.0059       = Validation score (-MAPE)
+	0.51    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 203.82 s
+Best model: SimpleFeedForward
+Best model score: -0.0059
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2022"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2022'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       113.18 GB / 125.17 GB (90.4%)
+Disk Space Avail:   25304.31 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 428 rows, 1 time series. Median time series length is 428 (min=428, max=428). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 21:58:21
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1800.0s of remaining time.
+	-0.0204       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	18.32   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 445.4s of the 1781.6s of remaining time.
+	-0.0087       = Validation score (-MAPE)
+	76.47   s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 568.4s of the 1705.1s of remaining time.
+	-0.0175       = Validation score (-MAPE)
+	109.24  s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 995.7s of the 1595.7s of remaining time.
+	-0.0127       = Validation score (-MAPE)
+	20.32   s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'TemporalFusionTransformer': 1.0}
+	-0.0087       = Validation score (-MAPE)
+	0.50    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 225.10 s
+Best model: TemporalFusionTransformer
+Best model score: -0.0087
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2023"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2023'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       113.17 GB / 125.17 GB (90.4%)
+Disk Space Avail:   25304.31 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 440 rows, 1 time series. Median time series length is 440 (min=440, max=440). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:02:07
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1799.9s of remaining time.
+	-0.0488       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	0.73    s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 449.8s of the 1799.2s of remaining time.
+	-0.0457       = Validation score (-MAPE)
+	83.00   s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 572.0s of the 1716.1s of remaining time.
+	-0.0342       = Validation score (-MAPE)
+	30.90   s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 1085.1s of the 1685.1s of remaining time.
+	-0.0352       = Validation score (-MAPE)
+	11.12   s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.71, 'SimpleFeedForward': 0.29}
+	-0.0340       = Validation score (-MAPE)
+	0.52    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 126.53 s
+Best model: WeightedEnsemble
+Best model score: -0.0340
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2024"
+Beginning AutoGluon training... Time limit = 1800s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Local_Forecasts/Bakery and cereal products (excluding baby food)/2024'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       112.94 GB / 125.17 GB (90.2%)
+Disk Space Avail:   25304.49 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 1800,
+ 'verbosity': 2}
+
+Provided train_data has 452 rows, 1 time series. Median time series length is 452 (min=452, max=452). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:04:32
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 360.0s of the 1800.0s of remaining time.
+Beginning AutoGluon training... Time limit = 600s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Bakery and cereal products (excluding baby food)'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.17 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.32 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 600,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:11:43
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 120.0s of the 600.0s of remaining time.
+	-0.0065       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	19.09   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 145.2s of the 580.8s of remaining time.
+	-0.0086       = Validation score (-MAPE)
+	130.98  s     = Training runtime
+	0.03    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 149.9s of the 449.8s of remaining time.
+	-0.0094       = Validation score (-MAPE)
+	13.71   s     = Training runtime
+	0.15    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 218.0s of the 435.9s of remaining time.
+	-0.9414       = Validation score (-MAPE)
+	0.18    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'AutoETS': 1.0}
+	-0.0065       = Validation score (-MAPE)
+	0.53    s     = Training runtime
+	19.09   s     = Validation (prediction) runtime
+Training complete. Models trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 164.82 s
+Best model: AutoETS
+Best model score: -0.0065
+Beginning AutoGluon training... Time limit = 600s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Dairy products and eggs'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       113.36 GB / 125.17 GB (90.6%)
+Disk Space Avail:   25304.26 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 600,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:14:47
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 120.0s of the 600.0s of remaining time.
+	-0.0133       = Validation score (-MAPE)
+	0.02    s     = Training runtime
+	18.54   s     = Validation (prediction) runtime
+Training timeseries model TemporalFusionTransformer. Training for up to 145.3s of the 581.4s of remaining time.
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Bakery and cereal products (excluding baby food)"
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Bakery and cereal products (excluding baby food)'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.14 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.25 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:33
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 2.9s of remaining time.
+	-0.0367       = Validation score (-MAPE)
+	0.98    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.6s of the 1.9s of remaining time.
+	-0.0537       = Validation score (-MAPE)
+	0.78    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.5s of the 1.0s of remaining time.
+	-0.0260       = Validation score (-MAPE)
+	0.61    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.21, 'SimpleFeedForward': 0.79}
+	-0.0213       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 2.98 s
+Best model: WeightedEnsemble
+Best model score: -0.0213
+Warning: path already exists! This predictor may overwrite an existing predictor! path="/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Dairy products and eggs"
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Dairy products and eggs'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.15 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.23 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:36
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 3.0s of remaining time.
+	-0.0497       = Validation score (-MAPE)
+	0.97    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.7s of the 2.0s of remaining time.
+	-0.0919       = Validation score (-MAPE)
+	0.75    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.6s of the 1.1s of remaining time.
+	-0.0145       = Validation score (-MAPE)
+	0.63    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.13, 'SimpleFeedForward': 0.57, 'TemporalFusionTransformer': 0.3}
+	-0.0095       = Validation score (-MAPE)
+	0.39    s     = Training runtime
+	0.13    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 2.94 s
+Best model: WeightedEnsemble
+Best model score: -0.0095
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Fish, seafood and other marine products'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.15 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.21 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:40
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 3.0s of remaining time.
+	-0.0121       = Validation score (-MAPE)
+	1.49    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.5s of the 1.4s of remaining time.
+	-0.2114       = Validation score (-MAPE)
+	0.60    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.4s of the 0.7s of remaining time.
+	-0.1229       = Validation score (-MAPE)
+	0.48    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+Warning: Ensemble Selection ran out of time, early stopping at iteration 56. This may mean that the time_limit specified is very small for this problem.
+	Ensemble weights: {'TemporalFusionTransformer': 1.0}
+	-0.0121       = Validation score (-MAPE)
+	0.44    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 3.22 s
+Best model: TemporalFusionTransformer
+Best model score: -0.0121
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Food purchased from restaurants'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.15 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.20 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:43
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 3.0s of remaining time.
+	-0.0498       = Validation score (-MAPE)
+	0.92    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.7s of the 2.0s of remaining time.
+	-0.0940       = Validation score (-MAPE)
+	0.75    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.6s of the 1.1s of remaining time.
+	-0.0246       = Validation score (-MAPE)
+	0.62    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.04, 'SimpleFeedForward': 0.73, 'TemporalFusionTransformer': 0.23}
+	-0.0183       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.13    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 2.90 s
+Best model: WeightedEnsemble
+Best model score: -0.0183
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Fruit, fruit preparations and nuts'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.15 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.24 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:46
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 3.0s of remaining time.
+	-0.0617       = Validation score (-MAPE)
+	0.93    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.7s of the 2.0s of remaining time.
+	-0.0917       = Validation score (-MAPE)
+	0.76    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.6s of the 1.1s of remaining time.
+	-0.0237       = Validation score (-MAPE)
+	0.62    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.25, 'SimpleFeedForward': 0.52, 'TemporalFusionTransformer': 0.23}
+	-0.0207       = Validation score (-MAPE)
+	0.39    s     = Training runtime
+	0.13    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 2.90 s
+Best model: WeightedEnsemble
+Best model score: -0.0207
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Meat'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.15 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.22 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:49
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 3.0s of remaining time.
+	-0.0648       = Validation score (-MAPE)
+	0.93    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.7s of the 2.0s of remaining time.
+	-0.1240       = Validation score (-MAPE)
+	0.79    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.6s of the 1.1s of remaining time.
+	-0.0123       = Validation score (-MAPE)
+	0.61    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.13, 'SimpleFeedForward': 0.73, 'TemporalFusionTransformer': 0.13}
+	-0.0093       = Validation score (-MAPE)
+	0.37    s     = Training runtime
+	0.13    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 2.92 s
+Best model: WeightedEnsemble
+Best model score: -0.0093
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Other food products and non-alcoholic beverages'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.15 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.20 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:53
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 3.0s of remaining time.
+	-0.0767       = Validation score (-MAPE)
+	0.98    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.6s of the 1.9s of remaining time.
+	-0.0694       = Validation score (-MAPE)
+	0.76    s     = Training runtime
+	0.09    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.5s of the 1.1s of remaining time.
+	-0.0446       = Validation score (-MAPE)
+	0.60    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'DeepAR': 0.31, 'SimpleFeedForward': 0.69}
+	-0.0186       = Validation score (-MAPE)
+	0.38    s     = Training runtime
+	0.11    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 2.93 s
+Best model: WeightedEnsemble
+Best model score: -0.0186
+Beginning AutoGluon training... Time limit = 3s
+AutoGluon will save models to '/h/kupfersk/cfpr_2026/generate_forecasts/output/Final_2026_Forecasts/Vegetables and vegetable preparations'
+=================== System Info ===================
+AutoGluon Version:  1.1.1
+Python Version:     3.8.20
+Operating System:   Linux
+Platform Machine:   x86_64
+Platform Version:   #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+CPU Count:          40
+GPU Count:          0
+Memory Avail:       114.15 GB / 125.17 GB (91.2%)
+Disk Space Avail:   25304.24 GB / 249006.62 GB (10.2%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'MS',
+ 'hyperparameters': {'AutoETS': {},
+                     'DeepAR': {},
+                     'SimpleFeedForward': {},
+                     'TemporalFusionTransformer': {}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 16,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 3,
+ 'verbosity': 2}
+
+Provided train_data has 476 rows, 1 time series. Median time series length is 476 (min=476, max=476). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MAPE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-10-22 22:17:56
+Models that will be trained: ['AutoETS', 'TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward']
+Training timeseries model AutoETS. Training for up to 0.6s of the 3.0s of remaining time.
+	Time limit exceeded... Skipping AutoETS.
+Training timeseries model TemporalFusionTransformer. Training for up to 0.7s of the 3.0s of remaining time.
+	-0.0833       = Validation score (-MAPE)
+	0.92    s     = Training runtime
+	0.02    s     = Validation (prediction) runtime
+Training timeseries model DeepAR. Training for up to 0.7s of the 2.0s of remaining time.
+	-0.1257       = Validation score (-MAPE)
+	0.77    s     = Training runtime
+	0.10    s     = Validation (prediction) runtime
+Training timeseries model SimpleFeedForward. Training for up to 0.6s of the 1.1s of remaining time.
+	-0.0300       = Validation score (-MAPE)
+	0.63    s     = Training runtime
+	0.01    s     = Validation (prediction) runtime
+Fitting simple weighted ensemble.
+	Ensemble weights: {'SimpleFeedForward': 0.8, 'TemporalFusionTransformer': 0.2}
+	-0.0255       = Validation score (-MAPE)
+	0.39    s     = Training runtime
+	0.03    s     = Validation (prediction) runtime
+Training complete. Models trained: ['TemporalFusionTransformer', 'DeepAR', 'SimpleFeedForward', 'WeightedEnsemble']
+Total runtime: 2.91 s
+Best model: WeightedEnsemble
+Best model score: -0.0255

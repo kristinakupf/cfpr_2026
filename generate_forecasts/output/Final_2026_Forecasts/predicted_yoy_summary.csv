@@ -1,0 +1,62 @@
+Category,Model,Mean 2025 CPI (Jan–Sep),Predicted 2026 CPI (Jan–Sep),Predicted YoY % Change
+Bakery and cereal products (excluding baby food),ARIMA,199.1,204.91,2.92
+Bakery and cereal products (excluding baby food),AutoETS,199.1,201.67,1.29
+Bakery and cereal products (excluding baby food),CovariatesDeepAR,199.1,201.22,1.06
+Bakery and cereal products (excluding baby food),CovariatesTemporalFusionTransformer,199.1,208.39,4.66
+Bakery and cereal products (excluding baby food),DeepAR,199.1,202.18,1.55
+Bakery and cereal products (excluding baby food),SimpleFeedForward,199.1,200.24,0.57
+Bakery and cereal products (excluding baby food),TemporalFusionTransformer,199.1,211.56,6.26
+Dairy products and eggs,ARIMA,176.4,181.85,3.09
+Dairy products and eggs,AutoETS,176.4,179.39,1.7
+Dairy products and eggs,CovariatesDeepAR,176.4,178.36,1.11
+Dairy products and eggs,CovariatesTemporalFusionTransformer,176.4,186.04,5.47
+Dairy products and eggs,DeepAR,176.4,182.0,3.18
+Dairy products and eggs,SimpleFeedForward,176.4,181.66,2.98
+Dairy products and eggs,TemporalFusionTransformer,176.4,177.42,0.58
+"Fish, seafood and other marine products",ARIMA,165.16,167.41,1.36
+"Fish, seafood and other marine products",AutoETS,165.16,168.42,1.97
+"Fish, seafood and other marine products",CovariatesDeepAR,165.16,167.75,1.57
+"Fish, seafood and other marine products",CovariatesTemporalFusionTransformer,165.16,165.95,0.48
+"Fish, seafood and other marine products",DeepAR,165.16,169.69,2.74
+"Fish, seafood and other marine products",SimpleFeedForward,165.16,166.79,0.99
+"Fish, seafood and other marine products",TemporalFusionTransformer,165.16,167.69,1.53
+Food,AutoETS,193.8,201.4,3.92
+Food,CovariatesDeepAR,193.8,196.7,1.5
+Food,CovariatesTemporalFusionTransformer,193.8,209.31,8.0
+Food,DeepAR,193.8,202.55,4.51
+Food,SimpleFeedForward,193.8,199.63,3.01
+Food,TemporalFusionTransformer,193.8,206.32,6.46
+Food purchased from restaurants,AutoETS,197.2,204.2,3.55
+Food purchased from restaurants,CovariatesDeepAR,197.2,200.8,1.83
+Food purchased from restaurants,CovariatesTemporalFusionTransformer,197.2,209.95,6.47
+Food purchased from restaurants,DeepAR,197.2,206.61,4.77
+Food purchased from restaurants,SimpleFeedForward,197.2,204.43,3.66
+Food purchased from restaurants,TemporalFusionTransformer,197.2,210.38,6.69
+"Fruit, fruit preparations and nuts",ARIMA,176.25,178.93,1.52
+"Fruit, fruit preparations and nuts",AutoETS,176.25,173.5,-1.56
+"Fruit, fruit preparations and nuts",CovariatesDeepAR,176.25,178.18,1.09
+"Fruit, fruit preparations and nuts",CovariatesTemporalFusionTransformer,176.25,186.1,5.59
+"Fruit, fruit preparations and nuts",DeepAR,176.25,181.45,2.95
+"Fruit, fruit preparations and nuts",SimpleFeedForward,176.25,179.52,1.85
+"Fruit, fruit preparations and nuts",TemporalFusionTransformer,176.25,182.4,3.49
+Meat,ARIMA,219.51,234.58,6.87
+Meat,AutoETS,219.51,233.91,6.56
+Meat,CovariatesDeepAR,219.51,223.21,1.68
+Meat,CovariatesTemporalFusionTransformer,219.51,239.3,9.01
+Meat,DeepAR,219.51,233.85,6.53
+Meat,SimpleFeedForward,219.51,232.27,5.81
+Meat,TemporalFusionTransformer,219.51,237.39,8.15
+Other food products and non-alcoholic beverages,ARIMA,184.24,198.3,7.63
+Other food products and non-alcoholic beverages,AutoETS,184.24,195.66,6.2
+Other food products and non-alcoholic beverages,CovariatesDeepAR,184.24,189.55,2.88
+Other food products and non-alcoholic beverages,CovariatesTemporalFusionTransformer,184.24,203.16,10.27
+Other food products and non-alcoholic beverages,DeepAR,184.24,189.53,2.87
+Other food products and non-alcoholic beverages,SimpleFeedForward,184.24,190.19,3.23
+Other food products and non-alcoholic beverages,TemporalFusionTransformer,184.24,194.57,5.61
+Vegetables and vegetable preparations,ARIMA,193.18,198.08,2.54
+Vegetables and vegetable preparations,AutoETS,193.18,190.89,-1.18
+Vegetables and vegetable preparations,CovariatesDeepAR,193.18,193.54,0.19
+Vegetables and vegetable preparations,CovariatesTemporalFusionTransformer,193.18,201.89,4.51
+Vegetables and vegetable preparations,DeepAR,193.18,202.57,4.86
+Vegetables and vegetable preparations,SimpleFeedForward,193.18,200.42,3.75
+Vegetables and vegetable preparations,TemporalFusionTransformer,193.18,214.44,11.01

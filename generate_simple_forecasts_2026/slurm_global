@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#SBATCH --job-name=global_models
+
+#SBATCH --gres=gpu:1
+
+#SBATCH --qos=normal
+
+#SBATCH --mem=10G
+
+#SBATCH --output=./slurm_logs/global_models-%j.out
+
+#SBATCH --error=./slurm_logs/global_models-%j.err
+
+#SBATCH --time=15:00:00
+
+#SBATCH --mail-type=END,FAIL
+
+
+echo Running on $(hostname)
+
+source /h/kupfersk/cfpr_2025/cfpr_2025/miniconda3/etc/profile.d/conda.sh
+conda activate cfpr_2025_py3.8
+
+cd /h/kupfersk/cfpr_2026/generate_simple_forecasts_2026/generate_simple_forecasts_2026
+
+jupyter nbconvert --to script /h/kupfersk/cfpr_2026/generate_simple_forecasts_2026/Train_Global_Models.ipynb
+
+#ipython
+python /h/kupfersk/cfpr_2026/generate_simple_forecasts_2026/Train_Global_Models.py
+
